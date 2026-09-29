@@ -8,6 +8,7 @@ export type QuestionEvent = {
   visits: number // returns through the navigator count as separate visits
   activeMs: number // total time spent on the question across all visits
   selected: number | string | null
+  answeredAt?: number // ms from module start, first non-empty selection
   changedFrom: (number | string)[] // full answer-change history
   markedForReview: boolean
   eliminated: number[] // choices crossed out

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
+import { Coach } from './coach/Coach.tsx'
 import { assembleModule } from './engine/assemble.ts'
 import { allottedMs } from './engine/format.ts'
 import { createModule, type ModuleState } from './engine/module.ts'
@@ -6,29 +7,42 @@ import { BANK } from './questions/index.ts'
 import { Done } from './screens/Done.tsx'
 import { Module } from './screens/Module.tsx'
 import { Start } from './screens/Start.tsx'
-import { clearActive, loadActive, saveActive, saveRun } from './store/db.ts'
+import { clearActive, getSettings, loadActive, saveActive, saveRun, takeNextModule, type NextModule } from './store/db.ts'
 import { fromSnapshot, settleExpired, toSnapshot } from './store/session.ts'
 
 type Screen =
   | { name: 'loading' }
-  | { name: 'start' }
+  | { name: 'start'; next: NextModule }
   | { name: 'module'; state: ModuleState }
   | { name: 'done'; state: ModuleState }
 
-// Step 3: condition stage 5 (real timing), balanced content, RW module 1.
-function newModule(): ModuleState {
+// Until the ramp engine (step 6): real clock, balanced content, RW, unless
+// the coach view has set an override.
+const DEFAULT_NEXT: NextModule = { section: 'rw', conditionStage: 5 }
+
+function newModule(next: NextModule): ModuleState {
   return createModule({
-    questions: assembleModule(BANK, 'rw'),
-    section: 'rw',
+    questions: assembleModule(BANK, next.section),
+    section: next.section,
     moduleIndex: 1,
-    conditionStage: 5,
+    conditionStage: next.conditionStage,
     contentTier: 3,
-    allottedMs: allottedMs('rw', 5),
+    allottedMs: allottedMs(next.section, next.conditionStage),
   })
 }
 
 export default function App() {
+  if (window.location.pathname === '/coach') return <Coach />
+  return <Student />
+}
+
+function Student() {
   const [screen, setScreen] = useState<Screen>({ name: 'loading' })
+
+  const toStart = useCallback(async () => {
+    const s = await getSettings()
+    setScreen({ name: 'start', next: s.next ?? DEFAULT_NEXT })
+  }, [])
 
   // On load: resume an in-progress module if there is one. The clock kept
   // running while the tab was closed; if it ran out, the module is filed
@@ -40,7 +54,7 @@ export default function App() {
       const restored = snap && fromSnapshot(snap, BANK)
       if (!restored) {
         if (snap) await clearActive()
-        if (!cancelled) setScreen({ name: 'start' })
+        if (!cancelled) await toStart()
         return
       }
       const settled = settleExpired(restored)
@@ -54,7 +68,7 @@ export default function App() {
     return () => {
       cancelled = true
     }
-  }, [])
+  }, [toStart])
 
   const onChange = useCallback((state: ModuleState) => {
     void saveActive(toSnapshot(state))
@@ -65,9 +79,10 @@ export default function App() {
     setScreen({ name: 'done', state })
   }, [])
 
-  const start = () => {
-    const state = newModule()
-    void saveActive(toSnapshot(state))
+  const start = async () => {
+    const next = (await takeNextModule()) ?? DEFAULT_NEXT
+    const state = newModule(next)
+    await saveActive(toSnapshot(state))
     setScreen({ name: 'module', state })
   }
 
@@ -75,7 +90,7 @@ export default function App() {
     case 'loading':
       return null
     case 'start':
-      return <Start onStart={start} />
+      return <Start next={screen.next} onStart={start} />
     case 'module':
       return (
         <Module
@@ -86,6 +101,6 @@ export default function App() {
         />
       )
     case 'done':
-      return <Done onRestart={() => setScreen({ name: 'start' })} />
+      return <Done onRestart={toStart} />
   }
 }

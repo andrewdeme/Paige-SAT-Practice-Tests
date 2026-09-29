@@ -38,7 +38,7 @@ export function createModule(opts: {
   allottedMs: number
   startedAt?: Date
 }): ModuleState {
-  const startedAt = opts.startedAt ?? new Date()
+  const startedAt = opts.startedAt ?? new Date(Date.now())
   const first = opts.questions[0]
   if (!first) throw new Error('module needs at least one question')
   return {
@@ -153,9 +153,11 @@ export function moduleReducer(state: ModuleState, action: ModuleAction): ModuleS
         ...state,
         run: updateEvent(state.run, q.id, (e) => {
           if (e.selected === action.choice) return e
+          const empty = action.choice === ''
           return {
             ...e,
-            selected: action.choice,
+            selected: empty ? null : action.choice,
+            answeredAt: e.answeredAt ?? (empty ? undefined : action.at),
             changedFrom: e.selected === null ? e.changedFrom : [...e.changedFrom, e.selected],
             // Picking a crossed-out choice un-crosses it, as in Bluebook.
             eliminated:

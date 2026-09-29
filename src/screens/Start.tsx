@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { MODULE } from '../engine/format.ts'
+import { allottedMs, MODULE } from '../engine/format.ts'
+import type { NextModule } from '../store/db.ts'
 
 const TIPS_KEY = 'sat-rehearsal.tips-seen'
 
@@ -11,8 +12,9 @@ function tipsSeen(): boolean {
   }
 }
 
-export function Start({ onStart }: { onStart: () => void }) {
-  const m = MODULE.rw
+export function Start({ next, onStart }: { next: NextModule; onStart: () => void }) {
+  const m = MODULE[next.section]
+  const minutes = Math.round(allottedMs(next.section, next.conditionStage) / 60000)
   const [tipsOpen, setTipsOpen] = useState(() => !tipsSeen())
 
   const start = () => {
@@ -88,7 +90,7 @@ export function Start({ onStart }: { onStart: () => void }) {
 
       <div className="today">
         <p>
-          Today: {m.title} · {m.questions} questions · {m.minutes} minutes
+          Today: {m.title} · {m.questions} questions · {minutes} minutes
         </p>
         <button type="button" className="primary" onClick={start} autoFocus>
           Start module
