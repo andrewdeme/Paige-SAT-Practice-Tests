@@ -176,3 +176,17 @@ li.out .choice .text { text-decoration: line-through; }
 .review { flex: 1; padding: 2rem; display: grid; gap: 1rem; justify-items: center; align-content: start; text-align: center; }
 .review h2 { margin: 0; }
 .review .muted { max-width: 40rem; }
+
+/* Intro / start */
+.intro { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+.intro h1 { font-size: 2rem; margin: 0 0 0.6rem; letter-spacing: -0.01em; }
+.intro h2 { font-size: 1.05rem; margin: 0 0 0.4rem; }
+.intro .lead { font-size: 1.1em; }
+.how { margin-top: 1.6rem; }
+.how ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.5rem; }
+.linklike { background: none; border: 0; padding: 0; font-weight: 600; color: var(--text); }
+.today {
+  margin-top: 2.2rem; padding-top: 1.4rem; border-top: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+}
+.today p { margin: 0; font-size: 1.15em; font-weight: 500; }
