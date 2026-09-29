@@ -12,6 +12,7 @@ import {
   type Settings,
   type StoredRun,
 } from '../store/db.ts'
+import { Help } from './Help.tsx'
 import { hashCode, isUnlocked, setUnlocked } from './passcode.ts'
 import { Report } from './Report.tsx'
 
@@ -111,6 +112,7 @@ function Gate({
 function Dashboard({ settings, onSettings }: { settings: Settings; onSettings: (s: Settings) => void }) {
   const [runs, setRuns] = useState<StoredRun[]>([])
   const [selected, setSelected] = useState<string | null>(null)
+  const [help, setHelp] = useState(false)
 
   const reload = () => listRuns().then((r) => setRuns(r.reverse()))
   useEffect(() => {
@@ -140,7 +142,12 @@ function Dashboard({ settings, onSettings }: { settings: Settings; onSettings: (
   return (
     <div className="coach">
       <aside className="coach-side">
-        <h1>Coach</h1>
+        <div className="coach-title">
+          <h1>Coach</h1>
+          <button type="button" className={`ghost tiny${help ? ' on' : ''}`} onClick={() => setHelp((h) => !h)}>
+            {help ? 'Close help' : 'Help'}
+          </button>
+        </div>
         <NextModuleControl settings={settings} onSettings={onSettings} />
         <h2>Runs</h2>
         {runs.length === 0 && <p className="muted">No modules yet.</p>}
@@ -150,7 +157,14 @@ function Dashboard({ settings, onSettings }: { settings: Settings; onSettings: (
             const d = new Date(r.startedAt)
             return (
               <li key={r.id} className={`${r.id === selected ? 'sel' : ''}${r.discarded ? ' disc' : ''}`}>
-                <button type="button" className="runbtn" onClick={() => setSelected(r.id)}>
+                <button
+                  type="button"
+                  className="runbtn"
+                  onClick={() => {
+                    setSelected(r.id)
+                    setHelp(false)
+                  }}
+                >
                   <span className="run-date">
                     {d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}{' '}
                     <span className="muted">{d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' })}</span>
@@ -178,7 +192,9 @@ function Dashboard({ settings, onSettings }: { settings: Settings; onSettings: (
       </aside>
 
       <main className="coach-main">
-        {current ? (
+        {help ? (
+          <Help onClose={() => setHelp(false)} />
+        ) : current ? (
           <Report run={current} prev={prevOf(current)} />
         ) : (
           <Trend runs={kept} onPick={setSelected} />

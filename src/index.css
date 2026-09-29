@@ -238,3 +238,6 @@ table.data th, table.data td { text-align: left; padding: 0.4em 0.6em; border-bo
 table.data th { color: var(--muted); font-weight: 600; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.04em; }
 details summary { cursor: pointer; font-weight: 600; }
 .empty { display: grid; place-content: center; min-height: 40vh; color: var(--muted); }
+.coach-title { display: flex; align-items: center; justify-content: space-between; }
+.help p { max-width: 46rem; }
+.help ul { padding-left: 1.2rem; display: grid; gap: 0.5rem; max-width: 46rem; }
