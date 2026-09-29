@@ -33,14 +33,17 @@ describe('assembleModule', () => {
     )
   })
 
-  it('draws unseen questions before seen ones', () => {
-    const first = assembleModule(BANK, 'rw', 1)
-    const seen = seenCounts([{ questionIds: first.map((q) => q.id) }])
-    const second = assembleModule(BANK, 'rw', 2, seen)
-    const unseenInBank = BANK.filter((q) => q.section === 'rw' && !seen.has(q.id)).length
-    const overlap = second.filter((q) => seen.has(q.id)).length
-    // Every unseen item that fits the mix is used before any repeat.
-    expect(second.length - overlap).toBeGreaterThanOrEqual(Math.min(unseenInBank, second.length) - 8)
+  it('gives four modules per section with no repeats, then cycles', () => {
+    for (const section of ['rw', 'math'] as const) {
+      const runs: { questionIds: string[] }[] = []
+      const used = new Set<string>()
+      for (let i = 0; i < 4; i++) {
+        const m = assembleModule(BANK, section, i + 1, seenCounts(runs))
+        for (const q of m) expect(used.has(q.id), `${section} repeat ${q.id} in module ${i + 1}`).toBe(false)
+        for (const q of m) used.add(q.id)
+        runs.push({ questionIds: m.map((q) => q.id) })
+      }
+    }
     expect(seenCounts([{ questionIds: ['a'], discarded: true }]).size).toBe(0)
   })
 

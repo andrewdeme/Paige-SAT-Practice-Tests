@@ -1,0 +1,762 @@
+[
+  {
+    "id": "rw-ii-e-200",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "E",
+    "stimulus": "Beavers are often called ecosystem engineers because the dams they build reshape the land around them. A beaver dam slows a stream, creating a pond that traps sediment and holds water through dry months. The pond supports frogs, waterfowl, and insects that a fast-moving stream cannot, and the wet meadow that forms behind the dam can persist long after the beavers themselves have moved on.",
+    "stem": "Which choice best states the main idea of the text?",
+    "type": "mc",
+    "choices": [
+      "Beaver dams change streams in ways that create habitat and store water, and these effects can outlast the beavers.",
+      "Beavers build dams mainly to protect themselves from predators.",
+      "Fast-moving streams support more kinds of animals than ponds do.",
+      "Wet meadows are the most valuable habitat that beavers create."
+    ],
+    "answer": 0,
+    "rationale": "The text explains what a dam does (slows the stream, traps sediment, holds water, supports animals) and closes by noting that the meadow persists after the beavers leave. A captures both the effects and their lasting nature. B gives a reason for dam building that the text never mentions, C reverses the comparison in the text, and D ranks habitats when the text does not.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-e-201",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "E",
+    "stimulus": "The following text is from a story. Tomas is learning to shape clay on a potter's wheel.\n\nTomas centered the clay for the fourth time, and for the fourth time it wobbled off toward the edge as soon as he pressed his thumb into it. Across the studio, Mrs. Adeyemi did not look up from her own wheel. \"You're pushing,\" she said. \"The clay knows when you're in a hurry.\" He let his hands go still, and the clay, to his surprise, went still with them.",
+    "stem": "Based on the text, what does Tomas discover about working with clay?",
+    "type": "mc",
+    "choices": [
+      "Pressing harder is the key to keeping the clay centered.",
+      "Mrs. Adeyemi is not paying attention to his work.",
+      "Relaxing his hands helps him control the clay.",
+      "The wheel is spinning too fast for a beginner."
+    ],
+    "answer": 2,
+    "rationale": "After Mrs. Adeyemi tells him he is pushing, Tomas lets his hands go still and the clay stops wobbling, so relaxing is what works. A is the opposite of what he learns. B is contradicted by the fact that Mrs. Adeyemi diagnoses his problem without even looking up, and D is never suggested.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-m-202",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "M",
+    "stimulus": "Astronomers classify comets partly by how long they take to orbit the Sun. Short-period comets return within two hundred years and tend to travel in the same flat plane as the planets, which suggests that they come from the Kuiper Belt, a disk of icy bodies just beyond Neptune. Long-period comets can take thousands of years to return and arrive from every direction, pointing to a far more distant and roughly spherical source known as the Oort Cloud. The two orbital patterns thus offer clues about where each kind of comet originated.",
+    "stem": "Which choice best states the main idea of the text?",
+    "type": "mc",
+    "choices": [
+      "Long-period comets are more numerous than short-period comets.",
+      "The Kuiper Belt lies much farther from the Sun than the Oort Cloud does.",
+      "Differences in how comets orbit suggest that they originate in different regions of the solar system.",
+      "Astronomers are unable to determine where most comets come from."
+    ],
+    "answer": 2,
+    "rationale": "Each type of comet is matched to a source based on its orbit, and the final sentence states that orbital patterns offer clues to origin. C states this directly. B reverses the distances given in the text, A is never discussed, and D contradicts the text's point that orbits do reveal origins.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-m-203",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence: Textual",
+    "difficulty": "M",
+    "stimulus": "Cleaner wrasses are small reef fish that remove parasites from larger \"client\" fish, though a wrasse will sometimes bite a client's protective mucus instead, which the client finds unpleasant. Marine biologist Renata Vasquez hypothesizes that wrasses provide more honest service when other potential clients are watching, because a fish that sees a wrasse cheat a customer will take its business elsewhere.",
+    "stem": "Which finding, if true, would most directly support Vasquez's hypothesis?",
+    "type": "mc",
+    "choices": [
+      "Wrasses removed more parasites from large clients than from small ones, regardless of who was watching.",
+      "Client fish visited wrasses more often in the morning than in the afternoon.",
+      "Wrasses bit clients at the same rate whether or not other fish were nearby to observe.",
+      "Wrasses were less likely to bite clients when other fish were nearby, and fish that had watched a wrasse bite a client avoided that wrasse afterward."
+    ],
+    "answer": 3,
+    "rationale": "The hypothesis has two links: an audience makes wrasses behave better, and the reason is that onlookers avoid cheaters. D shows both. C would weaken the hypothesis by showing no audience effect, while A and B concern client size and time of day, which the hypothesis does not address.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-h-204",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence: Textual",
+    "difficulty": "H",
+    "stimulus": "The following text is from a poem. The speaker describes a street musician.\n\nHe plays the same four songs each afternoon\nbeneath the awning of the hardware store,\nand people pass him, humming, half in tune,\nnot knowing they have carried off the score.\nHe does not count the coins. He counts instead\nthe ones who leave with music in their head.",
+    "stem": "Which quotation from the poem most effectively illustrates the claim that the musician measures his success by his effect on listeners rather than by what he earns?",
+    "type": "mc",
+    "choices": [
+      "\"He plays the same four songs each afternoon\"",
+      "\"and people pass him, humming, half in tune,\"",
+      "\"beneath the awning of the hardware store,\"",
+      "\"He does not count the coins. He counts instead / the ones who leave with music in their head.\""
+    ],
+    "answer": 3,
+    "rationale": "The claim has two parts: effect on listeners matters, and money does not. D contains both, explicitly rejecting the coins in favor of the listeners who leave humming. B is tempting because it shows the effect on passersby, but it says nothing about how the musician himself judges his success or about money. A and C only set the scene.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-m-205",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence: Quantitative",
+    "difficulty": "M",
+    "stimulus": "Average vertical jump height (cm) of volleyball players before and after a six-week program\n\n| Training group | Before | After |\n|---|---|---|\n| Plyometric only | 48 | 55 |\n| Strength only | 47 | 51 |\n| Combined plyometric and strength | 48 | 58 |\n| No training (control) | 48 | 49 |\n\nSports scientist Marcus Oyelaran assigned volleyball players to one of four groups for six weeks and measured their vertical jump before and after. He concluded that combining plyometric and strength training improved jump height more than either type of training did on its own.",
+    "stem": "Which choice most effectively uses data from the table to support Oyelaran's conclusion?",
+    "type": "mc",
+    "choices": [
+      "The control group's average jump height increased by only 1 cm over the six weeks.",
+      "All three training groups improved their average jump height more than the control group did.",
+      "The combined group's average jump height rose by 10 cm, compared with 7 cm for the plyometric-only group and 4 cm for the strength-only group.",
+      "After six weeks, the plyometric-only group had a higher average jump height than the strength-only group."
+    ],
+    "answer": 2,
+    "rationale": "The conclusion compares the combined program with each single program, so the supporting data must show all three gains side by side, which only C does. B compares the training groups with the control rather than with one another, D compares the two single programs and leaves out the combined group, and A concerns only the control group.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-h-206",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence: Quantitative",
+    "difficulty": "H",
+    "stimulus": "Percentage of taste panelists rating bread as \"acceptable\" after storage\n\n| Days after baking | Standard recipe | Recipe with added enzyme |\n|---|---|---|\n| 1 | 98% | 97% |\n| 3 | 81% | 94% |\n| 5 | 52% | 88% |\n| 7 | 24% | 70% |\n\nFood scientist Priya Raman tested whether adding a starch-modifying enzyme to bread dough would slow staling. She concluded that the enzyme made no noticeable difference to the bread when it was fresh but substantially extended the period during which the bread remained acceptable.",
+    "stem": "Which choice best describes data from the table that support Raman's conclusion?",
+    "type": "mc",
+    "choices": [
+      "On day 1 the two recipes were rated almost identically (98% and 97%), but by day 7 the enzyme recipe was still rated acceptable by 70% of panelists, compared with 24% for the standard recipe.",
+      "On day 1, the standard recipe was rated acceptable by slightly more panelists than the enzyme recipe was.",
+      "By day 7, the enzyme recipe was still rated acceptable by 70% of panelists.",
+      "The standard recipe fell from 98% acceptable on day 1 to 24% acceptable on day 7."
+    ],
+    "answer": 0,
+    "rationale": "Raman's conclusion has two parts: no difference when fresh, and a large difference later. Only A cites data for both. C is tempting but gives only the enzyme recipe's later result with nothing to compare it to, and D tracks only the standard recipe. B reports a 1-point gap as if it mattered, which is the opposite of the first part of the conclusion.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-e-207",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "E",
+    "stimulus": "In the 1880s, many cities replaced their wooden sidewalks with concrete ones. City records from the period show that requests for sidewalk repairs, which had arrived by the hundreds each year, fell sharply within a few years of the change. Historians who study these records note that wooden planks rotted quickly in wet weather and were sometimes pried up and taken for firewood. Given these details, it is reasonable to conclude that ______",
+    "stem": "Which choice most logically completes the text?",
+    "type": "mc",
+    "choices": [
+      "concrete sidewalks needed far less maintenance than wooden ones did.",
+      "cities stopped building sidewalks after the 1880s.",
+      "residents preferred the appearance of wooden sidewalks.",
+      "concrete sidewalks were cheaper to install than wooden ones."
+    ],
+    "answer": 0,
+    "rationale": "Repair requests dropped sharply after the switch, and the text explains why wooden sidewalks needed so many repairs, so A follows directly. D is about installation cost, which the text never mentions, and B and C are not supported by anything in the text.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-m-208",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "M",
+    "stimulus": "Honeybee colonies keep the temperature of the comb where their young develop within a narrow range. On hot days, some worker bees stand at the hive entrance and fan their wings, drawing cooler air through the hive. When researchers warmed a hive artificially, only a small fraction of the workers began fanning at first, and more joined in as the temperature continued to climb. Rather than every bee responding at a single trigger point, the pattern suggests that ______",
+    "stem": "Which choice most logically completes the text?",
+    "type": "mc",
+    "choices": [
+      "individual workers begin fanning at different temperatures, which lets the colony adjust its cooling gradually.",
+      "the bees that fan first are less sensitive to heat than the bees that fan later.",
+      "a colony cannot cool itself when the temperature rises quickly.",
+      "most workers in a hive are physically unable to fan."
+    ],
+    "answer": 0,
+    "rationale": "A few bees fanned at a lower temperature and more joined as it rose, which is what you would see if different bees had different trigger points. A states exactly that and explains the gradual response. B reverses the logic, since the first to fan must be the most sensitive, and C and D go beyond anything the observation shows.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-h-209",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "H",
+    "stimulus": "Roman harbor walls built of concrete have stood in seawater for two thousand years, while modern marine concrete often deteriorates within decades. Analysis of samples shows that Roman concrete contains small lumps of unreacted lime and that, where seawater has entered cracks, new mineral crystals have grown from those lumps and bound the crack surfaces together. Modern concrete is mixed thoroughly to eliminate such lumps, which have long been regarded as a sign of careless work. Taken together, these findings suggest that ______",
+    "stem": "Which choice most logically completes the text?",
+    "type": "mc",
+    "choices": [
+      "Roman builders understood the chemistry of lime better than modern engineers do.",
+      "the lime lumps in Roman concrete, far from being flaws, may allow the material to seal its own cracks over time.",
+      "modern concrete would last as long as Roman concrete if it were kept away from seawater.",
+      "Roman concrete was mixed more thoroughly than modern concrete is."
+    ],
+    "answer": 1,
+    "rationale": "The crystals that seal cracks grow from the lime lumps, and modern practice removes those lumps as supposed defects, so the lumps look like a hidden advantage. B draws exactly that conclusion. A is tempting but goes too far: the text shows that the lumps help, not that Romans understood why. D contradicts the text, and C is not addressed.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-e-210",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "E",
+    "stimulus": "Because the old lighthouse stands on a narrow spit of land that floods at high tide, visitors can reach it on foot only during a brief ______ each afternoon, when the water pulls back and exposes the stone causeway for an hour or two.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "type": "mc",
+    "choices": [
+      "delay",
+      "window",
+      "ceremony",
+      "argument"
+    ],
+    "answer": 1,
+    "rationale": "The blank names a short period of time in which something is possible, which is what \"window\" means here. \"Delay\" refers to a wait, not an opportunity, and the other choices do not describe a period of time at all.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-e-211",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "E",
+    "stimulus": "Many songbirds are remarkably ______ performers, adjusting their songs to the situation: a male may sing softly to a mate perched beside him, loudly to warn off a rival at the edge of his territory, and in an entirely different pattern when calling to his chicks.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "type": "mc",
+    "choices": [
+      "reluctant",
+      "silent",
+      "versatile",
+      "predictable"
+    ],
+    "answer": 2,
+    "rationale": "The colon introduces examples of a bird changing its song for different situations, so the word must mean adaptable, which \"versatile\" does. \"Predictable\" is the opposite of what the examples show, and \"reluctant\" and \"silent\" contradict the idea of a bird that sings in many ways.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-m-212",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "M",
+    "stimulus": "Architect Nadia Boulos designed the library's main reading room with tall, north-facing windows so that the light inside would remain ______ throughout the day, never flaring into the harsh glare that direct afternoon sun produces in rooms that face south.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "type": "mc",
+    "choices": [
+      "steady",
+      "faint",
+      "dazzling",
+      "scarce"
+    ],
+    "answer": 0,
+    "rationale": "The light is meant to \"remain\" the same \"throughout the day\" and to avoid flaring into glare, so it should be steady. \"Dazzling\" describes the glare the design avoids. \"Faint\" and \"scarce\" would suggest too little light, which is not the concern the text raises.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-h-213",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "H",
+    "stimulus": "The conductor's rehearsal notes, though sparse, are far from ______: nearly every marking corresponds to a passage that the orchestra performed differently in the public concert that followed, suggesting that even her briefest annotations were meant to be acted on.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "type": "mc",
+    "choices": [
+      "abbreviated",
+      "meticulous",
+      "perfunctory",
+      "inaudible"
+    ],
+    "answer": 2,
+    "rationale": "The notes are brief, but each one produced a real change, so they were not made carelessly or just for form's sake; \"perfunctory\" is the word being denied. \"Abbreviated\" fails because the notes are in fact sparse, so saying they are far from abbreviated contradicts the text. \"Meticulous\" is tempting, but the sentence says the notes are far from the blank, and the evidence shows they were purposeful, not that they were careless.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-e-214",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "E",
+    "stimulus": "Sourdough bread rises without commercial yeast. Instead, bakers maintain a \"starter,\" a mixture of flour and water in which wild yeast and bacteria have taken up residence. The yeast produces the gas that makes the dough rise, while the bacteria produce the acids that give sourdough its tangy flavor. Bakers feed the starter with fresh flour every day or so to keep the microbes active.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "type": "mc",
+    "choices": [
+      "To argue that sourdough is healthier than other kinds of bread",
+      "To explain how a sourdough starter makes bread rise and gives it flavor",
+      "To describe the history of sourdough baking",
+      "To compare the cost of wild yeast with that of commercial yeast"
+    ],
+    "answer": 1,
+    "rationale": "The text describes what a starter is and what its yeast and bacteria each do, so its purpose is explanatory. B captures that. A, C, and D describe arguments, history, and costs that the text never brings up.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-m-215",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "M",
+    "stimulus": "Skateboarders in the 1970s discovered that empty swimming pools, with their smooth curved walls, allowed a kind of riding that flat streets did not. The curved transition from floor to wall let riders build speed and briefly leave the surface at the top. Skatepark designers later borrowed the pool's curved \"bowl\" shape directly, and the form is now standard in parks around the world. A design that began as improvisation has become an institution.",
+    "stem": "Which choice best describes the function of the final sentence in the overall structure of the text?",
+    "type": "mc",
+    "choices": [
+      "It introduces a new type of skatepark that the text goes on to describe.",
+      "It questions whether bowl-shaped skateparks are still popular.",
+      "It explains why swimming pools are built with curved walls.",
+      "It summarizes the shift the text describes, from an accidental discovery to an established practice."
+    ],
+    "answer": 3,
+    "rationale": "The text moves from skateboarders improvising in empty pools to designers making the bowl shape standard; the final sentence restates that arc in a single line. D describes this role. A is wrong because nothing follows the sentence, B contradicts the claim that the form is standard, and C is never discussed.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-m-216",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "M",
+    "stimulus": "Glassmakers once produced flat window panes by spinning a blob of molten glass into a wide disk, which left a thick bump in the center and thinner, uneven glass toward the edges. In the 1950s, a new process floated molten glass on a bath of molten tin; because the tin's surface was perfectly level, the glass cooled into a sheet of uniform thickness. The process quickly replaced the older methods and remains the source of nearly all window glass made today.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "type": "mc",
+    "choices": [
+      "It presents two competing methods and argues that neither is superior.",
+      "It describes an older method and its drawback, then explains a newer method and its lasting success.",
+      "It explains why glassmakers eventually abandoned the use of molten tin.",
+      "It lists the many uses of window glass and describes how each is produced."
+    ],
+    "answer": 1,
+    "rationale": "Sentence 1 gives the old method and its flaw (uneven thickness), sentence 2 the new method and why it works, and sentence 3 its dominance ever since. B follows this order. A is wrong because the text clearly favors the newer method, C reverses what happened to the tin process, and D describes content the text does not contain.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-h-217",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "H",
+    "stimulus": "The following text is from a novel. Ora has returned to the coastal town where she grew up.\n\nThe harbor was smaller than she remembered, which she had expected, and the smell of tar and rope was exactly the same, which she had not. It was the smell that undid her. She had rehearsed the sights for weeks, had braced herself for the shrunken pier and the new hotel on the point, and had left the air entirely undefended.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "type": "mc",
+    "choices": [
+      "To convey that Ora is more affected by a familiar sensation she did not prepare for than by the changes she anticipated",
+      "To suggest that Ora regrets having left the town",
+      "To describe the ways the harbor has changed since Ora's childhood",
+      "To emphasize that Ora's memories of the town are unreliable"
+    ],
+    "answer": 0,
+    "rationale": "Ora had braced for the changes and handled them, but the unchanged smell, which she had not prepared for, is what \"undid her.\" A states this contrast. C is tempting because changes are mentioned, but they are the part that does not affect her. D misreads the first sentence: her memory of the harbor's size was off, but the text does not present her memories as unreliable in general, and B introduces a regret the text never states.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-m-218",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "M",
+    "stimulus": "Text 1\nConservation organizations often give priority to protecting large, well-known animals such as elephants and tigers. Critics of this approach contend that it diverts limited funding away from less appealing species that may play equally important roles in their ecosystems.\n\nText 2\nEcologist Femi Adebayo examined reserves that were created to protect tigers in several regions. Because tigers need vast territories, the reserves were large, and Adebayo found that they also sheltered hundreds of species of insects, amphibians, and plants that had no protection anywhere else. He argues that protecting a wide-ranging animal can, in practice, protect many other species at the same time.",
+    "stem": "Based on the texts, how would Adebayo (Text 2) most likely respond to the critics described in Text 1?",
+    "type": "mc",
+    "choices": [
+      "By agreeing that funding should be redirected from tigers to insects and amphibians",
+      "By arguing that tigers play a more important role in their ecosystems than other species do",
+      "By claiming that the critics have exaggerated the cost of maintaining large reserves",
+      "By pointing out that protecting a large animal can benefit less appealing species rather than taking resources away from them"
+    ],
+    "answer": 3,
+    "rationale": "The critics say funding for famous animals comes at the expense of other species; Adebayo's finding is that tiger reserves shelter hundreds of those other species. D captures his likely reply. A has him agreeing with the critics, B makes a claim about importance he never makes, and C is about cost, which neither text discusses.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-h-219",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "H",
+    "stimulus": "Text 1\nNineteenth-century \"shoebox\" concert halls, narrow and rectangular, are still prized for their sound. Acoustician Lena Marsh attributes this to the halls' close side walls, which reflect sound to listeners from the sides and create a sense of being surrounded by music. She argues that modern fan-shaped halls, which spread the audience out wide, cannot reproduce this effect.\n\nText 2\nAcoustician Jonas Feld agrees that side reflections are essential to a hall's warmth. However, his measurements in recent fan-shaped halls with angled wall panels show side reflections comparable to those of celebrated shoebox halls. Feld concludes that the shoebox shape is one way to achieve the effect, not the only way.",
+    "stem": "Based on the texts, Marsh and Feld would most likely agree with which statement?",
+    "type": "mc",
+    "choices": [
+      "Fan-shaped halls are unable to match the sound of shoebox halls.",
+      "Sound reflected from the sides of a hall plays an important part in how listeners experience the music.",
+      "Angled reflecting panels are the most effective way to improve a hall's acoustics.",
+      "Modern architects pay less attention to acoustics than nineteenth-century architects did."
+    ],
+    "answer": 1,
+    "rationale": "Marsh credits side-wall reflections for the shoebox sound, and Feld explicitly agrees that side reflections are essential; they differ only on whether other shapes can produce them. B is the shared point. A is Marsh's view alone and is exactly what Feld disputes, C is stronger than anything Feld claims, and D is asserted by neither text.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-e-220",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "E",
+    "stimulus": "Because a cat's collarbone is connected to the rest of its skeleton only by muscle, a cat can squeeze through nearly any opening that its head fits through. ______ house cats have been filmed slipping through gaps in fences that are barely wider than their skulls.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "type": "mc",
+    "choices": [
+      "However,",
+      "For instance,",
+      "In contrast,",
+      "Nonetheless,"
+    ],
+    "answer": 1,
+    "rationale": "The second sentence gives a specific case of the general ability described in the first, so a transition that introduces an example is needed. The other three choices all signal contrast, but the sentences agree with each other.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-e-221",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "E",
+    "stimulus": "Most bricks are made by firing clay in a kiln at high temperatures, a process that consumes a great deal of fuel. ______ some builders are experimenting with bricks that are pressed from damp soil and simply left to harden in the sun.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "type": "mc",
+    "choices": [
+      "Similarly,",
+      "For example,",
+      "For this reason,",
+      "In other words,"
+    ],
+    "answer": 2,
+    "rationale": "The fuel cost of kiln firing is the reason builders are trying sun-dried bricks, so a cause-and-effect transition fits. Sun-dried bricks are not an example of kiln firing (B), a restatement of it (D), or something similar to it (A).",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-m-222",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "M",
+    "stimulus": "Marathon runners often take in carbohydrates during a race so that their energy stores do not run out before the finish. Consuming a large amount at once, ______ can cause stomach discomfort, so most runners take small amounts at regular intervals instead.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "type": "mc",
+    "choices": [
+      "however,",
+      "therefore,",
+      "for example,",
+      "likewise,"
+    ],
+    "answer": 0,
+    "rationale": "The first sentence explains why runners eat carbohydrates; the second introduces a complication with doing so all at once. \"However\" marks that turn. \"Therefore\" would wrongly make the discomfort a consequence of the first sentence, and \"likewise\" would wrongly present it as a parallel benefit.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-h-223",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "H",
+    "stimulus": "The cast-iron storefronts that lined many commercial streets in the 1800s were praised for being inexpensive, quick to assemble, and fireproof. The last claim turned out to be overstated. ______ iron does not burn, it softens in the heat of a large fire and can buckle, bringing down the floors it supports.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "type": "mc",
+    "choices": [
+      "Although",
+      "Because",
+      "Indeed,",
+      "Specifically,"
+    ],
+    "answer": 0,
+    "rationale": "The sentence concedes a point (iron does not burn) and then gives the problem anyway (it softens and buckles), so it needs a word that sets up that concession and joins the two clauses. \"Although\" does both. \"Because\" would wrongly make not burning the cause of softening, and \"Indeed\" and \"Specifically\" would leave two independent clauses joined by only a comma.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-e-224",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "E",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n\n- Sea glass is formed from discarded glass bottles and jars that have been tumbled by ocean waves.\n- Over decades, sand and water wear away the sharp edges and give the surface a frosted look.\n- Green, brown, and clear pieces are the most common colors.\n- Red and orange pieces are rare because very little glass in those colors was ever manufactured.",
+    "stem": "The student wants to explain why some colors of sea glass are rare. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "mc",
+    "choices": [
+      "Sea glass is formed from discarded bottles and jars that have been tumbled by ocean waves.",
+      "Over decades, sand and water wear away sea glass's sharp edges and give it a frosted look.",
+      "Red and orange sea glass is rare because very little glass in those colors was ever manufactured.",
+      "Green, brown, and clear pieces are the most common colors of sea glass."
+    ],
+    "answer": 2,
+    "rationale": "The goal is to explain rarity, and C names rare colors and gives the reason. D is about common colors, not rare ones, and offers no explanation. A and B describe how sea glass forms rather than why certain colors are scarce.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-m-225",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "M",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n\n- Composer Halima Reyes wrote a piece for string quartet called \"Tidewater\" in 2019.\n- The piece has three movements and lasts about twenty minutes.\n- Reyes based its rhythms on the tide tables for the harbor near her home.\n- Each movement corresponds to a phase of the tide: rising, high, and falling.\n- The piece was first performed by the Larkspur Quartet.",
+    "stem": "The student wants to introduce the piece to an audience unfamiliar with it and emphasize how its structure reflects its inspiration. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "mc",
+    "choices": [
+      "\"Tidewater,\" a 2019 piece for string quartet by Halima Reyes, was first performed by the Larkspur Quartet.",
+      "Halima Reyes's 2019 string quartet \"Tidewater\" takes its shape from the sea: its three movements follow the rising, high, and falling phases of the tide near her home.",
+      "\"Tidewater\" has three movements and lasts about twenty minutes.",
+      "Reyes based the rhythms of \"Tidewater\" on tide tables for the harbor near her home."
+    ],
+    "answer": 1,
+    "rationale": "The goal has two parts: introduce the piece and connect its structure to its inspiration. B names the piece, composer, and year, then links the three movements to the tide's phases. D mentions the inspiration but says nothing about structure, C gives structure without inspiration, and A omits the tide entirely.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-m-226",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "M",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n\n- Researchers studied how sleep affects free-throw accuracy in college basketball players.\n- Before the study, the players slept an average of 6.5 hours per night.\n- For five weeks, players were asked to sleep at least 9 hours per night.\n- Free-throw accuracy improved from 79% to 88% during the extended-sleep period.\n- Players also reported feeling less tired during practice.",
+    "stem": "The student wants to present the study's main finding. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "mc",
+    "choices": [
+      "Researchers studied how sleep affects free-throw accuracy in college basketball players.",
+      "Before the study, the players slept an average of 6.5 hours per night.",
+      "When college basketball players extended their sleep to at least 9 hours a night for five weeks, their free-throw accuracy improved from 79% to 88%.",
+      "College basketball players reported feeling less tired during practice."
+    ],
+    "answer": 2,
+    "rationale": "A finding is a result, so the sentence must report what happened: C links the change in sleep to the measured improvement in accuracy. A states the study's topic but no result, B describes the starting point only, and D reports a secondary, self-reported outcome rather than the main measured finding.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-h-227",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "H",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n\n- The Nakamura Pavilion (2004) and the Ostrava Concert Hall (2011) were designed by different architects.\n- The Nakamura Pavilion's roof is made of thin, curved timber panels.\n- The Ostrava Concert Hall's roof is made of thin, curved steel panels.\n- In both buildings, the curved panels support the roof without any interior columns.\n- The Nakamura Pavilion is in Japan; the Ostrava Concert Hall is in the Czech Republic.",
+    "stem": "The student wants to emphasize a similarity in how the two buildings' roofs are supported. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "mc",
+    "choices": [
+      "The Nakamura Pavilion's roof is made of timber panels, whereas the Ostrava Concert Hall's roof is made of steel panels.",
+      "The Nakamura Pavilion, in Japan, and the Ostrava Concert Hall, in the Czech Republic, were designed by different architects.",
+      "The Nakamura Pavilion's roof of thin, curved timber panels supports itself without any interior columns.",
+      "Although one uses timber and the other steel, the Nakamura Pavilion and the Ostrava Concert Hall both rely on thin, curved panels to hold up their roofs without interior columns."
+    ],
+    "answer": 3,
+    "rationale": "The similarity is the column-free support provided by curved panels, and D states it for both buildings while acknowledging the difference in material. C is tempting because it describes the shared feature correctly, but it mentions only one building, so it cannot show a similarity. A and B emphasize differences.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-h-228",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "H",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n\n- Biologist Ines Calloway studied whether crows remember the faces of people who have handled them.\n- Volunteers wearing one particular mask captured and released crows in a single city park.\n- Months later, crows in that park scolded people wearing that mask but ignored people wearing other masks.\n- The study involved one park and a total of 12 crows.\n- Calloway concluded that crows can recognize and remember individual human faces.",
+    "stem": "The student wants to note a reason the study's conclusion might not apply to crows in general. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "mc",
+    "choices": [
+      "Calloway concluded that crows can recognize and remember individual human faces.",
+      "Months later, crows in the park scolded people wearing the mask used during capture but ignored people wearing other masks.",
+      "The study involved one park and a total of 12 crows.",
+      "Because Calloway's study involved only 12 crows in a single park, its conclusion that crows remember human faces may not hold for crows more generally."
+    ],
+    "answer": 3,
+    "rationale": "The goal is to connect a feature of the study to a limit on its conclusion. D does both, naming the small sample and single location and stating what that means for the conclusion. C is the near miss: it gives the relevant fact but never says why it matters, so it does not accomplish the goal. A and B restate the conclusion and the evidence for it rather than a limitation.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-e-229",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "E",
+    "stimulus": "Although recipes vary from region to region, the three basic ingredients in traditional Italian ______ are flour, water, and salt; eggs are added to the dough in some northern regions, while in the south the dough is often made from only semolina flour and water.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "pasta,",
+      "pasta;",
+      "pasta",
+      "pasta—"
+    ],
+    "answer": 2,
+    "rationale": "\"The three basic ingredients in traditional Italian pasta\" is the subject of the verb \"are,\" and no punctuation should separate a subject from its verb. A comma, semicolon, or dash there would all break up the clause.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-e-230",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "E",
+    "stimulus": "After the final whistle ______ the players from both teams lined up at midfield to shake hands, a tradition the league has maintained since its founding more than fifty years ago and one that coaches say matters as much as the result.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "blew;",
+      "blew,",
+      "blew.",
+      "blew, and"
+    ],
+    "answer": 1,
+    "rationale": "\"After the final whistle blew\" is an introductory dependent clause, which is joined to the main clause with a comma. A semicolon or a period would leave the introductory clause as a fragment, and adding \"and\" would produce a sentence with no main clause.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-m-231",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "M",
+    "stimulus": "Some of the cheeses aged in the limestone caves—especially those stored on the lowest shelves, where the humidity is ______ develop a rind so thick that it must be cut away with a wire before the cheese can be sold.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "highest,",
+      "highest;",
+      "highest—",
+      "highest"
+    ],
+    "answer": 2,
+    "rationale": "The interrupting phrase begins with a dash after \"caves,\" so it must end with a dash as well. A comma would not match the opening dash, a semicolon would separate the subject from its verb \"develop,\" and leaving out punctuation would run the interruption into the main clause.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-m-232",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "M",
+    "stimulus": "The sprinters who train at high altitude for several weeks before a major ______ often report that the air at sea level feels unusually rich when they return to compete, though the measurable benefit of such training remains a matter of debate among coaches.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "competition,",
+      "competition;",
+      "competition—",
+      "competition"
+    ],
+    "answer": 3,
+    "rationale": "The clause \"who train at high altitude for several weeks before a major competition\" identifies which sprinters are meant, so it is essential and is not set off by punctuation. The subject \"sprinters\" then connects directly to its verb \"report.\" A comma is tempting, but a single comma there would separate the subject from the verb.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-h-233",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "H",
+    "stimulus": "The bassoon's double reed, which the player usually makes by hand from a strip of ______ must be soaked in water for several minutes before it will vibrate properly, and even a well-made reed rarely lasts more than a few weeks of regular playing.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "cane,",
+      "cane—",
+      "cane;",
+      "cane"
+    ],
+    "answer": 0,
+    "rationale": "The nonessential clause beginning \"which the player usually makes\" opens with a comma, so it must close with a comma before the verb \"must be soaked.\" A dash is the near miss: dashes can set off such a clause, but only if one is used at both ends. A semicolon would need an independent clause on each side, and no punctuation would leave the clause unclosed.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-h-234",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "H",
+    "stimulus": "The astronomers had expected the star's brightness to dip every 3.2 days as its planet passed in front of ______ instead, the dips arrived at slightly irregular intervals, hinting at a second, unseen body whose gravity was tugging the planet off schedule.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "it,",
+      "it;",
+      "it and",
+      "it"
+    ],
+    "answer": 1,
+    "rationale": "Both halves of the sentence are independent clauses, and \"instead\" is an adverb, not a conjunction, so it cannot join them on its own. A semicolon correctly separates the clauses. A comma before \"instead\" creates a comma splice, \"and\" without a comma is not standard for joining two independent clauses, and no punctuation produces a run-on.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-e-235",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "E",
+    "stimulus": "The stadium's retractable roof, along with its heated seats and oversized video screens, ______ designed to keep spectators comfortable in any weather, from the thunderstorms of late summer to the snow that can arrive during the final weeks of the season.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "was",
+      "were",
+      "have been",
+      "are"
+    ],
+    "answer": 0,
+    "rationale": "The subject is the singular \"roof\"; the phrase \"along with its heated seats and oversized video screens\" is an interruption and does not make the subject plural. \"Was\" is the singular verb. The other choices are all plural.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-m-236",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "M",
+    "stimulus": "By the time the last section of the suspension bridge's deck was bolted into place in 1937, the crews ______ more than four years on the project, much of it working hundreds of feet above the water in wind strong enough to halt work for days.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "have spent",
+      "spend",
+      "had spent",
+      "will have spent"
+    ],
+    "answer": 2,
+    "rationale": "The years of work were completed before another past event, the bolting of the last section in 1937, so the past perfect \"had spent\" is needed. \"Have spent\" is the near miss, but the present perfect connects to the present rather than to an earlier past moment; \"spend\" and \"will have spent\" are in the wrong time frame entirely.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-m-237",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "M",
+    "stimulus": "The choir's two soloists rehearse separately from the rest of the group for part of each session because ______ parts require a vocal range that the other singers have not yet developed, and the director prefers to work with them on breath control alone.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "its",
+      "there",
+      "they're",
+      "their"
+    ],
+    "answer": 3,
+    "rationale": "The pronoun refers to the plural \"soloists,\" so the plural possessive \"their\" is correct. \"Its\" is tempting because \"choir\" appears earlier, but the parts belong to the soloists, not the choir. \"There\" and \"they're\" are not possessive.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-m-238",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "M",
+    "stimulus": "To make a traditional wooden bow, the craftsman selects a straight stave of yew or ash, dries it slowly for a year or more, and ______ it with hand tools until both limbs bend evenly under tension, a process that can take many weeks of patient work.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "shaping",
+      "to shape",
+      "shapes",
+      "shaped"
+    ],
+    "answer": 2,
+    "rationale": "The blank is the third item in a series of present-tense verbs, \"selects\" and \"dries,\" so it must match them: \"shapes.\" \"Shaping\" and \"to shape\" break the parallel structure, and \"shaped\" shifts to the past tense.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-h-239",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "H",
+    "stimulus": "The purple sea urchin is one of the few animals that ______ able to chew through the tough stalks of kelp, and its jaw, a five-part structure that scrapes as it bites, has inspired designs for sampling tools intended for use on other planets.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "is",
+      "are",
+      "was",
+      "has been"
+    ],
+    "answer": 1,
+    "rationale": "The relative clause \"that ______ able to chew\" describes \"animals,\" the plural noun right before it, so the verb must be plural: \"are.\" \"Is\" is the near miss, since \"urchin\" is singular, but the clause is telling us about the group of animals, not about the urchin alone. \"Was\" and \"has been\" are singular as well as shifting the time frame.",
+    "source": "original"
+  }
+]
