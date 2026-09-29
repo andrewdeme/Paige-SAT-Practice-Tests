@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "vite",
     "validate": "node scripts/validate-bank.ts",
-    "build": "npm run validate && tsc -b && vite build",
+    "build": "npm run validate && npm test && tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "dependencies": {
     "react": "^19.2.8",
@@ -22,7 +23,8 @@
     "@vitejs/plugin-react": "^6.1.1",
     "oxlint": "^1.81.0",
     "typescript": "~6.0.2",
-    "vite": "^8.3.0"
+    "vite": "^8.3.0",
+    "vitest": "^5.0.2"
   },
   "engines": {
     "node": ">=22.18"
