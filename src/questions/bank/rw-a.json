@@ -1,0 +1,762 @@
+[
+  {
+    "id": "rw-ii-e-100",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "E",
+    "stimulus": "Lighthouse keepers in the nineteenth century did far more than tend a lamp. They recorded the weather several times a day, kept logs of passing ships, and maintained the fog signal, which at some stations had to be wound by hand every few hours. Because supplies arrived only a few times a year, keepers also grew vegetables, repaired their own equipment, and kept careful inventories of oil, wicks, and glass.",
+    "stem": "Which choice best states the main idea of the text?",
+    "type": "mc",
+    "choices": [
+      "Lighthouse keepers had a wide range of duties beyond operating the light.",
+      "Lighthouse keepers were poorly paid for the amount of work they did.",
+      "The fog signal was the most demanding piece of equipment at a lighthouse.",
+      "Supplies were delivered to lighthouses more often in the nineteenth century than they are today."
+    ],
+    "answer": 0,
+    "rationale": "The first sentence announces the idea and the rest of the text lists the extra duties: weather records, ship logs, the fog signal, gardening, repairs, and inventories. A sums that up. C picks out one duty the text never ranks above the others, and B and D bring in pay and modern deliveries, which the text never discusses.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-e-101",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "E",
+    "stimulus": "The following text is from a story. Tomas has recently moved to a small coastal town.\n\nAt first Tomas found the town's silence unnerving. There were no sirens, no buses hissing at the curb, only the tide and, twice a day, the ferry's horn. But by the end of the second week he noticed that he had stopped reaching for his headphones on his morning walk. He had begun, without ever deciding to, to listen.",
+    "stem": "According to the text, how does Tomas's attitude toward the town change?",
+    "type": "mc",
+    "choices": [
+      "He becomes frustrated by the ferry's unpredictable schedule.",
+      "He begins to miss the noise of buses and sirens.",
+      "He grows to appreciate the quiet he initially found unsettling.",
+      "He decides that he will move back to the city."
+    ],
+    "answer": 2,
+    "rationale": "The silence is \"unnerving\" at first, but by the second week Tomas stops reaching for headphones and begins \"to listen,\" so he has come to value the quiet. B reverses that change, and A and D describe feelings or decisions the text never mentions.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-m-102",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "M",
+    "stimulus": "The following text is from a story. Priya, a beekeeper, is showing her hives to her nephew Dev.\n\nPriya lifted the frame and held it to the light so that Dev could see the bees moving across the comb. She had expected him to flinch; instead he leaned closer, asking why some cells were capped and others open. She answered each question, and then, when he ran out of them, she found herself explaining things he hadn't asked about, things she had not said aloud in years.",
+    "stem": "Which choice best describes Priya's reaction to Dev's interest in the bees?",
+    "type": "mc",
+    "choices": [
+      "She is annoyed that his questions interrupt her work.",
+      "She worries that he is standing too close to the hive.",
+      "She is disappointed that he does not ask more questions.",
+      "She is surprised by it and becomes unusually talkative in response."
+    ],
+    "answer": 3,
+    "rationale": "Priya \"had expected him to flinch,\" so his leaning in surprises her, and she then explains \"things he hadn't asked about\" that she \"had not said aloud in years,\" which is unusual openness. C is tempting because Dev does run out of questions, but Priya responds by talking more, not by feeling let down. Nothing suggests annoyance (A) or worry (B).",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-m-103",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence: Textual",
+    "difficulty": "M",
+    "stimulus": "Ecologist Marcus Bellweather proposes that the bright orange coloring of a certain species of tree frog serves mainly to warn predators that the frog is toxic, rather than to attract mates. He notes that males and females of the species are equally bright, which would be unexpected if the color existed to impress potential partners.",
+    "stem": "Which finding, if true, would most directly support Bellweather's proposal?",
+    "type": "mc",
+    "choices": [
+      "Female frogs of the species prefer to mate with the brightest available males.",
+      "Nontoxic species of tree frog that are closely related to this one are also bright orange.",
+      "Birds that have eaten one of the frogs avoid orange objects afterward, while birds that have never encountered the frogs readily attack orange models.",
+      "The frogs are most active at night, when their coloring is difficult to see."
+    ],
+    "answer": 2,
+    "rationale": "Bellweather's claim is that the color warns predators. C shows predators learning to avoid orange after a bad experience, which is exactly how a warning color works. A supports the mate-attraction explanation he rejects, B weakens the link between orange color and toxicity, and D would make any visual signal less useful.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-m-104",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence: Textual",
+    "difficulty": "M",
+    "stimulus": "The following text is from a poem. The speaker describes visiting a tide pool.\n\nThe sea retreats and leaves its small museum:\nanemones pulled shut like folded hands,\na crab rehearsing patience under stone.\nI kneel an hour, and the water hands\nback nothing I could carry from this place—\nonly the habit of a slower gaze.",
+    "stem": "Which quotation from the poem most effectively illustrates the claim that what the speaker takes from the tide pool is a change in perception rather than a physical object?",
+    "type": "mc",
+    "choices": [
+      "\"The sea retreats and leaves its small museum:\"",
+      "\"back nothing I could carry from this place— / only the habit of a slower gaze.\"",
+      "\"a crab rehearsing patience under stone.\"",
+      "\"I kneel an hour, and the water hands\""
+    ],
+    "answer": 1,
+    "rationale": "The claim has two halves: nothing physical is taken, and a way of seeing is. B states both: \"nothing I could carry\" and \"the habit of a slower gaze.\" A and C describe what the speaker sees, not what the speaker gains, and D stops before saying what is handed back.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-h-105",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence: Textual",
+    "difficulty": "H",
+    "stimulus": "Musicologist Helena Voss argues that the flood of inexpensive printed sheet music in the 1890s changed how amateur pianists learned. Rather than memorizing pieces from a teacher's demonstration, she claims, they increasingly taught themselves from the printed page, and because self-teaching favors music that is easy to read and play, publishers responded with simpler arrangements.",
+    "stem": "Which finding, if true, would most directly support Voss's argument?",
+    "type": "mc",
+    "choices": [
+      "Sales of pianos to private households rose sharply during the 1890s.",
+      "Sheet music sold to households in the 1890s contains far more simplified arrangements than sheet music from the 1870s, and its covers often advertise that no teacher is required.",
+      "Piano teachers in the 1890s often complained that their students preferred popular songs to classical pieces.",
+      "Many professional pianists of the 1890s continued to learn new pieces by ear rather than from printed music."
+    ],
+    "answer": 1,
+    "rationale": "Voss links two things: amateurs teaching themselves from the page, and publishers simplifying arrangements as a result. B provides evidence for both, since the covers point to self-teaching and the arrangements are simpler than before. C is tempting because it involves amateurs' tastes, but preferring popular songs says nothing about self-teaching or simplification. A shows more pianos, not a change in learning, and D concerns professionals, not amateurs.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-m-106",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence: Quantitative",
+    "difficulty": "M",
+    "stimulus": "Average number of bird species recorded per survey at four city parks\n\n| Park | 2019 (before planting) | 2023 (after planting) |\n|---|---|---|\n| Elm Park | 12 | 19 |\n| Riverside Park | 15 | 16 |\n| Kestrel Park | 9 | 17 |\n| Union Park | 14 | 14 |\n\nIn 2020, native shrubs were planted at Elm Park and Kestrel Park, while Riverside Park and Union Park were left unchanged. A student who compared bird surveys from before and after the planting concluded that the plantings were associated with a notable increase in the number of bird species.",
+    "stem": "Which choice most effectively uses data from the table to support the student's conclusion?",
+    "type": "mc",
+    "choices": [
+      "Elm Park recorded 19 species per survey in 2023, more than any other park.",
+      "Riverside Park had more species per survey than Kestrel Park in both 2019 and 2023.",
+      "Union Park recorded the same number of species per survey in 2019 and 2023.",
+      "Elm Park and Kestrel Park each gained at least seven species per survey between 2019 and 2023, while the two unplanted parks changed by at most one species."
+    ],
+    "answer": 3,
+    "rationale": "To tie the increase to the planting, the support needs to show that the planted parks changed and the unplanted parks did not. D does both. A gives a single year's total with no change over time, B compares two parks rather than before and after, and C describes only an unplanted park.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-h-107",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence: Quantitative",
+    "difficulty": "H",
+    "stimulus": "Percentage of oak seedlings surviving after one year, by watering schedule and soil type\n\n| Watering schedule | Sandy soil | Clay soil |\n|---|---|---|\n| Daily | 61% | 48% |\n| Every three days | 72% | 66% |\n| Weekly | 44% | 63% |\n\nHorticulturist Ines Carvalho tested how often oak seedlings should be watered. She concluded that watering every three days produced the best survival in both soil types, but that the cost of watering too rarely was much greater in sandy soil than in clay soil.",
+    "stem": "Which choice best describes data from the table that support Carvalho's conclusion?",
+    "type": "mc",
+    "choices": [
+      "Seedlings watered every three days had the highest survival rate in the study, 72%, in sandy soil.",
+      "Seedlings watered every three days had the highest survival in both soils, and switching to weekly watering lowered survival by 28 percentage points in sandy soil but by only 3 points in clay soil.",
+      "Daily watering produced lower survival than watering every three days in both sandy and clay soil.",
+      "Seedlings in clay soil that were watered weekly survived at a higher rate than seedlings in sandy soil that were watered weekly."
+    ],
+    "answer": 1,
+    "rationale": "The conclusion has two parts: every-three-days is best in both soils, and the drop from too little water is much larger in sandy soil. Only B covers both, comparing the weekly figures against the best schedule in each soil. D is the closest miss, since it compares the two weekly results, but a single-row comparison does not show how far each soil fell from its best schedule. A addresses only sandy soil, and C is about daily watering, not watering too rarely.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-e-108",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "E",
+    "stimulus": "Most commercial tomato varieties are bred to stay firm so that they survive shipping without bruising. Firmness, however, is partly controlled by the same genes that govern the production of sugars and aromatic compounds in the fruit. Breeders who select strongly for firmness therefore often end up with ______",
+    "stem": "Which choice most logically completes the text?",
+    "type": "mc",
+    "choices": [
+      "tomatoes that ripen more quickly.",
+      "tomatoes with more seeds.",
+      "tomatoes that are less flavorful.",
+      "tomatoes that cost less to ship."
+    ],
+    "answer": 2,
+    "rationale": "The text says the genes for firmness are also the genes for sugars and aroma, so selecting hard for one affects the other. C follows directly. D is tempting because shipping is mentioned, but the sentence with \"therefore\" is built on the shared genes, not on cost, and A and B involve traits the text never links to firmness.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-m-109",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "M",
+    "stimulus": "Archaeologists excavating a medieval building found hundreds of glass beads, most of them cracked, discolored, or misshapen, along with a small number of finished beads of high quality. No coins, weights, or other traces of trade were found on the site. Because damaged beads would have had little value to a buyer, the researchers concluded that ______",
+    "stem": "Which choice most logically completes the text?",
+    "type": "mc",
+    "choices": [
+      "the building was mainly used to export beads to distant markets.",
+      "the building was a place where beads were made rather than a place where they were sold.",
+      "medieval glassmakers were unable to produce beads of consistent quality.",
+      "the high-quality beads found at the site had been made somewhere else."
+    ],
+    "answer": 1,
+    "rationale": "Piles of rejected beads, a few good ones, and no sign of buying or selling point to a workshop, where flawed pieces are discarded, rather than a shop. A contradicts the absence of trade evidence, C overreaches from one site to all glassmakers, and D has no support, since a workshop would naturally produce some good beads.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ii-m-110",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "M",
+    "stimulus": "Historian Nadia Olsen studied the diaries of nineteenth-century farm families on the northern plains. She noticed that entries written in winter were far longer and more detailed than those written in summer, even though winter was the season with fewer events to describe. Olsen suggests that this pattern most likely reflects ______",
+    "stem": "Which choice most logically completes the text?",
+    "type": "mc",
+    "choices": [
+      "the diarists' greater interest in weather than in farm work.",
+      "a decline in the number of families keeping diaries during the summer.",
+      "the difficulty of obtaining paper and ink during the summer months.",
+      "how much free time the diarists had in each season rather than how much there was to report."
+    ],
+    "answer": 3,
+    "rationale": "The puzzle is that the season with less to report produced longer entries, so the explanation must lie in something other than the amount of news. Farm families are busiest in summer and least busy in winter, which D captures. A, B, and C each introduce a cause the text gives no hint of, and B in particular concerns how many diaries existed, not how long their entries were.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-e-111",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "E",
+    "stimulus": "The trail through the canyon is clearly marked with painted posts at every junction and never strays far from the river, so even hikers with little experience are unlikely to become ______ before reaching the campground at the far end.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "type": "mc",
+    "choices": [
+      "exhausted",
+      "lost",
+      "curious",
+      "injured"
+    ],
+    "answer": 1,
+    "rationale": "The reasons given, clear markers at junctions and staying near the river, are about finding the way, so the risk they remove is getting lost. \"Exhausted\" and \"injured\" would need details about the trail's length or terrain, which the text does not give.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-e-112",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "E",
+    "stimulus": "The documentary about the retreating glacier runs nearly two hours, yet its narration is deliberately ______: the filmmaker lets the footage speak for itself, adding only a few words of explanation at the start of each section and then falling silent for minutes at a time.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "type": "mc",
+    "choices": [
+      "detailed",
+      "confusing",
+      "sparse",
+      "loud"
+    ],
+    "answer": 2,
+    "rationale": "After the colon, the text describes narration that says very little and goes silent for long stretches, which is sparse. \"Detailed\" contradicts \"only a few words,\" and nothing suggests the narration is confusing or loud.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-m-113",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "M",
+    "stimulus": "Although the two composers were born in the same city a year apart and studied under the same teacher, their mature works are so unlike each other that critics rarely mention them together. Their careers seem to have followed ______ paths, touching only at the very beginning.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "type": "mc",
+    "choices": [
+      "divergent",
+      "parallel",
+      "identical",
+      "predictable"
+    ],
+    "answer": 0,
+    "rationale": "The careers started at the same point and then moved apart until the composers' works had nothing in common, which is what \"divergent\" means. \"Parallel\" is the tempting near miss, but parallel paths stay the same distance apart and never touch, while these paths touched at the start and then separated.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-h-114",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "H",
+    "stimulus": "Reviewing the new biography of the inventor, historian Aurelio Mendes praised its research but faulted its tone. The author, he wrote, treats every minor setback in her subject's life as a tragedy and every small success as a triumph, an approach that ______ the genuinely dramatic moments by surrounding them with manufactured ones.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "type": "mc",
+    "choices": [
+      "heightens",
+      "clarifies",
+      "dilutes",
+      "postpones"
+    ],
+    "answer": 2,
+    "rationale": "Mendes is criticizing the tone, and the mechanism he describes is that real drama gets lost among fake drama. When everything is dramatic, the truly dramatic moments stand out less, so the approach \"dilutes\" them. \"Heightens\" is tempting because the author is adding drama, but it turns the sentence into praise, which contradicts \"faulted.\"",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-e-115",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "E",
+    "stimulus": "Before refrigerated railcars were introduced in the 1870s, fresh meat could be sold only near where the animals were raised. The new cars, cooled by blocks of ice loaded at stations along the route, allowed meat packed in one city to arrive fresh a thousand miles away. Within two decades, a handful of large packing companies located near the rail hubs supplied much of the country.",
+    "stem": "Which choice best states the main purpose of the text?",
+    "type": "mc",
+    "choices": [
+      "To argue that refrigerated railcars were more important than other inventions of the 1870s",
+      "To explain how a technological change altered the way meat was distributed",
+      "To describe how ice was produced and stored in the nineteenth century",
+      "To criticize the large packing companies that emerged in the late 1800s"
+    ],
+    "answer": 1,
+    "rationale": "The text moves from how meat was sold before the railcars, to what the railcars made possible, to the resulting change in the industry, so its purpose is to explain that change. It makes no comparison with other inventions (A), does not explain how ice was made (C), and describes the packing companies without judging them (D).",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-m-116",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "M",
+    "stimulus": "Sourdough bread rises without commercial yeast, relying instead on wild yeasts and bacteria that bakers maintain in a starter. Bakers often claim that their starters have unique flavors reflecting the region where they were made. A recent study lent some support to this idea: when identical flour was sent to bakers in different countries, the resulting starters contained noticeably different communities of microbes. The researchers cautioned, however, that the bakers' hands and kitchens, not the local air, appeared to be the main source of the differences.",
+    "stem": "Which choice best describes the function of the final sentence in the text as a whole?",
+    "type": "mc",
+    "choices": [
+      "It rejects the bakers' claim that starters differ from one place to another.",
+      "It explains why the researchers chose to send identical flour to every baker.",
+      "It introduces a follow-up experiment that the researchers plan to conduct.",
+      "It qualifies the study's finding by pointing to a cause of the variation that differs from the one bakers assume."
+    ],
+    "answer": 3,
+    "rationale": "The study confirmed that starters differ, so the final sentence does not reject that (A). What it does is narrow the finding: the differences are real, but they seem to come from bakers and kitchens rather than from the region's air, which is not quite what the bakers claim. That makes D correct. B and C describe content that is not in the sentence.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-m-117",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "M",
+    "stimulus": "The following text is from a story. Ana is a new apprentice in a pottery studio.\n\nAna's first bowls came off the wheel lopsided, and she assumed the fault lay in her hands. Then she watched Mr. Ferreira center a lump of clay and saw that he barely moved his hands at all; the work came from his shoulders, his elbows, the whole weight of his body pressing steadily down. She tried again, leaning in this time, and the clay stopped fighting her.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "type": "mc",
+    "choices": [
+      "It describes Mr. Ferreira's teaching method and then evaluates how well it works with other students.",
+      "It contrasts Ana's early failures with her later success as a professional potter.",
+      "It presents a problem Ana faces, describes an observation that reveals its cause, and shows her applying what she learned.",
+      "It explains the steps involved in centering clay on a pottery wheel."
+    ],
+    "answer": 2,
+    "rationale": "The first sentence sets up the problem (lopsided bowls, blamed on her hands), the second shows Ana noticing that the real work comes from the body, and the third shows her using that insight successfully. C tracks all three moves. B is tempting but overreaches: the text shows one improved attempt, not a professional career. A and D describe a different kind of text entirely.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-h-118",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "H",
+    "stimulus": "The following text is from a novel. The narrator has returned to the house where she grew up, which is now for sale.\n\nThe listing called the kitchen \"charming,\" and I supposed it was, if you didn't know that the crack in the tile by the sink was where my brother dropped the cast-iron pan, or that the door frame still carried, under three coats of paint, the pencil marks of our heights. The buyers would see a room. I could not stop seeing a record.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "type": "mc",
+    "choices": [
+      "To argue that the house should not be sold to strangers",
+      "To convey the narrator's awareness that the meaning she finds in the house is invisible to others",
+      "To describe the poor condition of the kitchen in detail",
+      "To suggest that the narrator's memories of the house are unreliable"
+    ],
+    "answer": 1,
+    "rationale": "The passage sets what the listing and the buyers see (\"charming,\" \"a room\") against what the narrator sees (\"a record\"), and each detail is one that only someone who lived there could know. B names that gap. A is the near miss: the narrator's feelings are strong, but she never argues against the sale, and she even concedes the kitchen is charming. C mistakes two small details for a survey of damage, and D has no support, since the memories are presented as precise.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-m-119",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "M",
+    "stimulus": "Text 1\nSome educators recommend that students take notes by hand rather than on a laptop, citing studies in which students who wrote by hand did better on tests of conceptual understanding. The usual explanation is that handwriting is slower, which forces students to summarize ideas rather than transcribe every word.\n\nText 2\nPsychologist Renata Kowalczyk points out that in most of those studies, students were given no instructions about how to take notes. When her team explicitly told laptop users to summarize in their own words instead of transcribing, the difference between the handwriting and laptop groups disappeared.",
+    "stem": "Based on the texts, how would Kowalczyk (Text 2) most likely respond to the recommendation described in Text 1?",
+    "type": "mc",
+    "choices": [
+      "She would agree that handwriting is superior because it cannot be used to transcribe.",
+      "She would argue that laptops are more effective than handwriting for taking notes.",
+      "She would argue that the benefit comes from how students take notes, not from the tool they use.",
+      "She would suggest that tests of conceptual understanding are not a reliable measure of learning."
+    ],
+    "answer": 2,
+    "rationale": "Kowalczyk's finding is that laptop users who summarize do just as well as handwriters, so the key variable is summarizing, not the tool. C states that. B goes too far, since her result shows the groups were equal, not that laptops won. A accepts the very recommendation her data undercut, and D questions the tests, which she never does.",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-m-120",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "M",
+    "stimulus": "Text 1\nRoman aqueducts are admired for their arched stone bridges, but most of an aqueduct's length ran underground or at ground level in covered channels. Because the water moved by gravity alone, the channel had to descend at a slight, nearly constant slope over its entire route, sometimes for more than fifty miles.\n\nText 2\nVisitors to the surviving aqueduct bridges often ask how such heavy structures were raised without modern machinery. Yet the more impressive achievement may have been the surveying: keeping a gentle downward gradient across hills and valleys required measurements far more precise than anything the construction demanded.",
+    "stem": "Which choice best describes a relationship between the two texts?",
+    "type": "mc",
+    "choices": [
+      "Both texts suggest that the visible bridges are not the most remarkable feature of the aqueducts.",
+      "Text 2 challenges the claim in Text 1 that aqueducts moved water by gravity alone.",
+      "Text 1 describes a problem that Text 2 proposes a solution to.",
+      "Text 2 argues that the aqueducts were less useful than Text 1 suggests."
+    ],
+    "answer": 0,
+    "rationale": "Text 1 says the bridges are only a small part of the system and stresses the constant slope; Text 2 says the surveying that produced that slope was more impressive than the bridges. Both look past the bridges to the gradient, so A is correct. Text 2 accepts the gravity explanation rather than challenging it (B), Text 1 describes a requirement rather than a problem (C), and neither text discusses usefulness (D).",
+    "source": "original"
+  },
+  {
+    "id": "rw-cs-h-121",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "H",
+    "stimulus": "Text 1\nWildlife biologist Sunniva Berg argues that wildlife crossings, the bridges and tunnels built over or under highways, are the most cost-effective way to reduce collisions between vehicles and large animals. She cites a study in which collisions near a new crossing fell by more than 80 percent within three years.\n\nText 2\nTransportation researcher Owen Adeyemi agrees that crossings reduce collisions where they are built. He notes, however, that the project Berg cites also installed fencing along several miles of highway on either side of the crossing, and that in his own analysis, sites with fencing alone saw declines nearly as large at a fraction of the cost.",
+    "stem": "Based on the texts, Adeyemi (Text 2) would most likely describe Berg's use of the study as ______",
+    "type": "mc",
+    "choices": [
+      "flawed, because the study measured collisions over too short a period.",
+      "reasonable, since the crossing was clearly responsible for the decline.",
+      "misleading, because crossings do not actually reduce collisions.",
+      "incomplete, because it credits the crossing with an effect that the fencing may largely explain."
+    ],
+    "answer": 3,
+    "rationale": "Adeyemi's point is that the study changed two things at once, crossing and fencing, and that fencing alone produces most of the effect cheaply, so Berg cannot attribute the 80 percent drop to the crossing. D captures that. C is the near miss: it overstates his position, since he explicitly agrees that crossings reduce collisions. He raises no objection to the three-year window (A), and B is the opposite of his view.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-e-122",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "E",
+    "stimulus": "Bamboo is technically a grass, not a tree, and like other grasses it has a hollow stem and grows from the base rather than from the tip. ______ some species grow tall enough and strong enough that builders in several countries use bamboo poles as scaffolding on construction sites.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "type": "mc",
+    "choices": [
+      "For example,",
+      "Even so,",
+      "As a result,",
+      "In addition,"
+    ],
+    "answer": 1,
+    "rationale": "The first sentence stresses that bamboo is a grass, which would lead a reader to expect something small and weak; the second sentence says it is strong enough for scaffolding anyway. That is a concession, so \"Even so\" fits. \"As a result\" would wrongly make the strength a consequence of being a grass.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-e-123",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "E",
+    "stimulus": "Honey has an extremely low water content and a very high concentration of sugar, and bacteria cannot grow under those conditions. ______ a sealed jar of honey can remain safe to eat for decades, long after most other foods in the same pantry would have spoiled.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "type": "mc",
+    "choices": [
+      "Nevertheless,",
+      "In contrast,",
+      "For this reason,",
+      "Specifically,"
+    ],
+    "answer": 2,
+    "rationale": "The second sentence describes an effect (honey lasts for decades) of the cause given in the first (bacteria cannot grow in it), so a cause-and-effect transition is needed. \"Nevertheless\" and \"In contrast\" would signal a contradiction that is not there.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-m-124",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "M",
+    "stimulus": "Modern elevators are equipped with several independent braking systems, and their cables are rated to carry many times the maximum load. Riders' fear of a cable snapping is therefore largely unfounded. ______ elevators have an excellent safety record compared with stairs, where far more injuries occur each year.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "type": "mc",
+    "choices": [
+      "However,",
+      "For instance,",
+      "Otherwise,",
+      "In fact,"
+    ],
+    "answer": 3,
+    "rationale": "The last sentence does not merely repeat that the fear is unfounded; it goes further, saying elevators are safer than stairs. \"In fact\" introduces a claim that strengthens and extends the previous point. \"However\" would signal a reversal, and the stair comparison is not an example of the braking systems (\"For instance\").",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-m-125",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "M",
+    "stimulus": "Many public libraries have eliminated late fees, expecting the change to cost them money. In several cities, the opposite happened: patrons who had stayed away out of embarrassment over old fines returned, and the number of books checked out rose. ______ some libraries reported that ending fines freed up staff time that had been spent processing small payments.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "type": "mc",
+    "choices": [
+      "Moreover,",
+      "Nonetheless,",
+      "In other words,",
+      "Instead,"
+    ],
+    "answer": 0,
+    "rationale": "The third sentence adds a second, separate benefit (saved staff time) to the first (more patrons and checkouts). \"Moreover\" adds a point in the same direction. \"In other words\" is tempting but wrong because staff time is a new benefit, not a restatement of the previous one, and \"Nonetheless\" and \"Instead\" signal contrast.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-e-126",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "E",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n\n- Monarch butterflies migrate each autumn from Canada and the northern United States to central Mexico.\n- The journey can be longer than 2,500 miles.\n- No single butterfly completes the round trip; the return north takes several generations.\n- Monarchs cluster on the same groves of trees in Mexico every year.",
+    "stem": "The student wants to emphasize the length of the monarchs' autumn migration. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "mc",
+    "choices": [
+      "Monarch butterflies cluster on the same groves of trees in Mexico every year.",
+      "The return trip north is made by several generations of monarch butterflies.",
+      "Monarch butterflies can be found in Canada, the United States, and Mexico.",
+      "Each autumn, monarch butterflies travel more than 2,500 miles from Canada and the northern United States to central Mexico."
+    ],
+    "answer": 3,
+    "rationale": "The goal is the length of the journey, and D is the only choice that gives the distance. A is about where the butterflies land, B about the return trip, and C about their range; none says how far they fly.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-m-127",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "M",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n\n- Cuneiform is one of the earliest known writing systems, developed in Mesopotamia around 3200 BCE.\n- Scribes pressed a reed stylus into wet clay tablets to make wedge-shaped marks.\n- Clay tablets that were baked, whether deliberately or in accidental fires, hardened and have lasted for thousands of years.\n- Hundreds of thousands of cuneiform tablets exist in museums today.\n- Many tablets record ordinary matters such as grain deliveries and loan agreements.",
+    "stem": "The student wants to explain why so many cuneiform tablets have survived. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "mc",
+    "choices": [
+      "Because the clay tablets on which cuneiform was written hardened when baked, they have lasted for thousands of years, and hundreds of thousands exist today.",
+      "Cuneiform, one of the earliest known writing systems, was developed in Mesopotamia around 3200 BCE.",
+      "Hundreds of thousands of cuneiform tablets survive in museums, many of them recording ordinary matters such as grain deliveries.",
+      "Scribes made wedge-shaped marks by pressing a reed stylus into wet clay."
+    ],
+    "answer": 0,
+    "rationale": "Explaining why so many survived requires a cause, and only A gives one: baked clay hardens and lasts. C is the near miss because it mentions that many tablets survive, but it says nothing about why. B and D describe cuneiform's origin and method without addressing survival.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-m-128",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "M",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n\n- Vantablack is one of the darkest materials ever made.\n- It consists of a dense forest of tiny carbon tubes, each thousands of times thinner than a human hair.\n- Light that enters the forest bounces between the tubes and is absorbed rather than reflected.\n- It absorbs more than 99.9% of visible light.\n- It was developed in 2014 for use in telescopes and other optical instruments.",
+    "stem": "The student wants to explain to an audience unfamiliar with Vantablack how it absorbs light. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "mc",
+    "choices": [
+      "Vantablack, one of the darkest materials ever made, was developed in 2014 for telescopes and other optical instruments.",
+      "Vantablack absorbs more than 99.9% of visible light, making it one of the darkest materials ever made.",
+      "Vantablack, one of the darkest materials ever made, consists of a forest of tiny carbon tubes; light that enters the forest bounces between the tubes and is absorbed instead of reflected.",
+      "The carbon tubes in Vantablack are each thousands of times thinner than a human hair."
+    ],
+    "answer": 2,
+    "rationale": "The audience needs both an introduction to what Vantablack is and the mechanism by which it absorbs light. C provides both. B is tempting because it describes how much light is absorbed, but a percentage is a result, not an explanation of how. A gives history only, and D gives a detail about the tubes without saying what they do.",
+    "source": "original"
+  },
+  {
+    "id": "rw-ei-h-129",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "H",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n\n- Lena and Marta Haugen were sisters and landscape painters in Norway in the early 1900s.\n- Lena painted almost exclusively in oil and worked slowly, often revising a canvas for months.\n- Marta preferred watercolor and usually finished a painting outdoors in a single afternoon.\n- Both sisters painted the fjords near their childhood home.\n- Critics at the time praised Lena's work as \"monumental\" and Marta's as \"fresh.\"",
+    "stem": "The student wants to emphasize a difference in the sisters' working methods. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "mc",
+    "choices": [
+      "Critics at the time described Lena Haugen's paintings as \"monumental\" and her sister Marta's as \"fresh.\"",
+      "Whereas Lena Haugen worked slowly in oil, sometimes revising a canvas for months, her sister Marta typically completed a watercolor outdoors in a single afternoon.",
+      "Lena Haugen, who painted in oil, and her sister Marta, who preferred watercolor, were both praised by critics of their time.",
+      "Both Lena and Marta Haugen, landscape painters working in Norway in the early 1900s, painted the fjords near their childhood home."
+    ],
+    "answer": 1,
+    "rationale": "B sets the two methods directly against each other with \"whereas\" and includes medium, pace, and setting, so the difference is the point of the sentence. C is the near miss: it mentions different mediums, but only in passing, and its main clause stresses a similarity (both were praised). A reports critics' labels rather than methods, and D stresses what the sisters shared.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-e-130",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "E",
+    "stimulus": "The bread that the bakery on Harbor Street is best known for is remarkably simple, and the owner is happy to share how it is made. According to her, the recipe calls for just four ______ flour, water, salt, and a small amount of starter saved from the previous day's dough.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "ingredients,",
+      "ingredients;",
+      "ingredients:",
+      "ingredients"
+    ],
+    "answer": 2,
+    "rationale": "The clause before the blank is complete, and what follows is the list that \"four ingredients\" promises. A colon introduces that list. A semicolon must be followed by an independent clause, and a comma or no punctuation would run the list into the sentence without signaling that it names the ingredients.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-m-131",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "M",
+    "stimulus": "The observatory sits on a ridge chosen for its dark skies and thin, dry air. Its largest telescope, with a mirror nearly four meters across, was completed in the autumn of ______ however, an unusually long stretch of cloudy weather delayed its first scientific observations by almost a year.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "1962;",
+      "1962,",
+      "1962",
+      "1962, and"
+    ],
+    "answer": 0,
+    "rationale": "Both sides of the blank are independent clauses, and \"however\" is a transitional adverb, not a conjunction, so it cannot join them on its own. A semicolon before \"however\" correctly separates the clauses. A comma alone creates a comma splice, no punctuation creates a run-on, and \"and however\" is not a standard combination.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-m-132",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "M",
+    "stimulus": "Bryophytes, the group of plants that includes mosses, are often overlooked because they are small and lack flowers. Yet the species of moss that botanist Leah Adeyinka identified on the ______ in only three other locations worldwide, all of them on similar limestone cliffs.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "cliffs, grows",
+      "cliffs; grows",
+      "cliffs grows,",
+      "cliffs grows"
+    ],
+    "answer": 3,
+    "rationale": "The subject is \"the species of moss that botanist Leah Adeyinka identified on the cliffs,\" and \"grows\" is its verb. No punctuation should separate a subject from its verb, and none should separate the verb from the phrase \"in only three other locations\" that completes it. A comma after \"cliffs\" wrongly splits subject and verb; a semicolon needs an independent clause on each side.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-h-133",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "H",
+    "stimulus": "The expedition's logbook, which survived the voyage in remarkably good condition, records the daily readings of its navigational instruments. The three instruments the crew relied on ______ a barometer, a sextant, and a chronometer—had all been borrowed from a university museum.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "most:",
+      "most—",
+      "most,",
+      "most;"
+    ],
+    "answer": 1,
+    "rationale": "The list \"a barometer, a sextant, and a chronometer\" interrupts the sentence between the subject and its verb \"had all been borrowed,\" and it is closed by a dash after \"chronometer.\" An interrupting element must be set off by matching punctuation, so it must open with a dash too. A colon cannot be paired with a closing dash, and a comma opening would not match the dash that closes the list.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-m-134",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "M",
+    "stimulus": "The illustrated manuscript was produced in a mountain monastery sometime in the fourteenth century. Although the text was written in a dialect that few scholars could read ______ its illustrations of plants and animals were studied closely by naturalists for decades.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "fluently;",
+      "fluently",
+      "fluently,",
+      "fluently, and"
+    ],
+    "answer": 2,
+    "rationale": "\"Although the text was written in a dialect that few scholars could read fluently\" is a dependent clause, so it must be joined to the main clause with a comma. A semicolon requires an independent clause on both sides, and adding \"and\" after a dependent clause leaves the sentence without a main clause that stands on its own.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-e-135",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "E",
+    "stimulus": "The harbor has changed enormously since the 1980s, when the last of the canneries closed. The photographs in the new exhibit, taken over forty years by a single photographer who lived above the docks, ______ that change one season at a time.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "show",
+      "shows",
+      "has shown",
+      "is showing"
+    ],
+    "answer": 0,
+    "rationale": "The subject is the plural \"photographs,\" not \"exhibit\" or \"photographer,\" which appear only inside modifying phrases. \"Show\" is the plural verb. The other three choices are all singular.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-e-136",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "E",
+    "stimulus": "Last spring, the students in the environmental club planted a vegetable garden in the empty lot behind the school. Over the summer they watered and weeded it in shifts and ______ everything they harvested to the food bank on Elm Street.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "donate",
+      "donating",
+      "donated",
+      "will donate"
+    ],
+    "answer": 2,
+    "rationale": "The events happened \"last spring\" and \"over the summer,\" and the other verbs in the sentence, \"watered\" and \"weeded,\" are in the past tense. \"Donated\" keeps the tense consistent. \"Donating\" cannot serve as a main verb here, and the present and future forms do not fit a completed past event.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-m-137",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "M",
+    "stimulus": "Loans of artwork between museums are common, but they are carefully controlled at every step. When a museum lends a painting to another institution, ______ typically requires the borrower to meet strict standards for humidity, lighting, and security before the painting is packed and shipped.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "they",
+      "one",
+      "he or she",
+      "it"
+    ],
+    "answer": 3,
+    "rationale": "The pronoun refers to \"a museum,\" which is singular and not a person, so \"it\" is correct. \"They\" is plural and does not agree with \"museum.\" \"One\" and \"he or she\" refer to people, not to an institution.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-m-138",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "M",
+    "stimulus": "The town hall's tower has puzzled local historians for years, since it does not match the style of the rest of the building. Neither the original blueprints nor the architect's surviving correspondence ______ any mention of the tower, which suggests that it was added to the design after construction had already begun.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "contain",
+      "contains",
+      "are containing",
+      "have contained"
+    ],
+    "answer": 1,
+    "rationale": "With \"neither...nor,\" the verb agrees with the noun closest to it, and \"correspondence\" is singular, so \"contains\" is correct. \"Contain\" is tempting because \"blueprints\" is plural, but the nearer subject governs the verb. \"Are containing\" and \"have contained\" are plural forms and also shift the tense without reason.",
+    "source": "original"
+  },
+  {
+    "id": "rw-sec-h-139",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "H",
+    "stimulus": "The regional robotics competition draws more than sixty schools each year, and the first round is held over a single weekend in March. Only a small number of the teams that compete advance beyond that weekend. To qualify for the regional finals, ______",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "mc",
+    "choices": [
+      "a team must finish the first round with one of the eight highest scores in its division.",
+      "a team's score in the first round must be among the eight highest in its division.",
+      "the eight highest first-round scores in each division are required.",
+      "it is necessary for one of the eight highest first-round scores in each division to be earned."
+    ],
+    "answer": 0,
+    "rationale": "The opening phrase \"To qualify for the regional finals\" describes whoever is qualifying, so the subject that follows the comma must be able to qualify. Only \"a team\" can. B is the near miss: a score cannot qualify for the finals, so the modifier dangles. C and D also leave the phrase with nothing sensible to modify.",
+    "source": "original"
+  }
+]
