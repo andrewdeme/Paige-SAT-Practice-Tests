@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import { Coach } from './coach/Coach.tsx'
-import { assembleModule } from './engine/assemble.ts'
+import { assembleModule, seenCounts } from './engine/assemble.ts'
 import { allottedMs } from './engine/format.ts'
 import { createModule, type ModuleState } from './engine/module.ts'
 import { BANK } from './questions/index.ts'
@@ -8,7 +8,16 @@ import { Done } from './screens/Done.tsx'
 import { Module } from './screens/Module.tsx'
 import { Resume } from './screens/Resume.tsx'
 import { Start } from './screens/Start.tsx'
-import { clearActive, getSettings, loadActive, saveActive, saveRun, takeNextModule, type NextModule } from './store/db.ts'
+import {
+  clearActive,
+  getSettings,
+  listRuns,
+  loadActive,
+  saveActive,
+  saveRun,
+  takeNextModule,
+  type NextModule,
+} from './store/db.ts'
 import { fromSnapshot, settleExpired, toSnapshot } from './store/session.ts'
 
 type Screen =
@@ -22,9 +31,10 @@ type Screen =
 // the coach view has set an override.
 const DEFAULT_NEXT: NextModule = { section: 'rw', conditionStage: 5 }
 
-function newModule(next: NextModule): ModuleState {
+async function newModule(next: NextModule): Promise<ModuleState> {
+  const seen = seenCounts(await listRuns())
   return createModule({
-    questions: assembleModule(BANK, next.section),
+    questions: assembleModule(BANK, next.section, Date.now(), seen),
     section: next.section,
     moduleIndex: 1,
     conditionStage: next.conditionStage,
@@ -85,7 +95,7 @@ function Student() {
 
   const start = async () => {
     const next = (await takeNextModule()) ?? DEFAULT_NEXT
-    const state = newModule(next)
+    const state = await newModule(next)
     await saveActive(toSnapshot(state))
     setScreen({ name: 'module', state })
   }

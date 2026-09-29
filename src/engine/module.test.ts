@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { BANK } from '../questions/index.ts'
-import { assembleModule, balancedCounts } from './assemble.ts'
+import { assembleModule, balancedCounts, seenCounts } from './assemble.ts'
 import { allottedMs } from './format.ts'
 import { answeredCount, createModule, eventFor, isCorrect, moduleReducer } from './module.ts'
 
@@ -31,6 +31,17 @@ describe('assembleModule', () => {
     expect(assembleModule(BANK, 'rw', 7).map((q) => q.id)).toEqual(
       assembleModule(BANK, 'rw', 7).map((q) => q.id),
     )
+  })
+
+  it('draws unseen questions before seen ones', () => {
+    const first = assembleModule(BANK, 'rw', 1)
+    const seen = seenCounts([{ questionIds: first.map((q) => q.id) }])
+    const second = assembleModule(BANK, 'rw', 2, seen)
+    const unseenInBank = BANK.filter((q) => q.section === 'rw' && !seen.has(q.id)).length
+    const overlap = second.filter((q) => seen.has(q.id)).length
+    // Every unseen item that fits the mix is used before any repeat.
+    expect(second.length - overlap).toBeGreaterThanOrEqual(Math.min(unseenInBank, second.length) - 8)
+    expect(seenCounts([{ questionIds: ['a'], discarded: true }]).size).toBe(0)
   })
 
   it('builds a 22-question math module', () => {

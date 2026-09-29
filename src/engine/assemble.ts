@@ -37,6 +37,15 @@ export function mulberry32(seed: number): () => number {
   }
 }
 
+export function seenCounts(runs: readonly { questionIds: string[]; discarded?: boolean }[]): Map<string, number> {
+  const m = new Map<string, number>()
+  for (const r of runs) {
+    if (r.discarded) continue
+    for (const id of r.questionIds) m.set(id, (m.get(id) ?? 0) + 1)
+  }
+  return m
+}
+
 function shuffle<T>(items: readonly T[], rand: () => number): T[] {
   const out = [...items]
   for (let i = out.length - 1; i > 0; i--) {
@@ -46,10 +55,13 @@ function shuffle<T>(items: readonly T[], rand: () => number): T[] {
   return out
 }
 
+// `seen` maps question id -> how many prior runs used it. Least-seen items
+// are drawn first, so she cycles through the whole bank before any repeat.
 export function assembleModule(
   bank: readonly Question[],
   section: Section,
   seed = Date.now(),
+  seen: ReadonlyMap<string, number> = new Map(),
 ): Question[] {
   const n = MODULE[section].questions
   const want = balancedCounts(n)
@@ -58,7 +70,9 @@ export function assembleModule(
 
   const picked: Question[] = []
   for (const d of ['E', 'M', 'H'] as const) {
-    const avail = shuffle(pool.filter((q) => q.difficulty === d), rand)
+    const avail = shuffle(pool.filter((q) => q.difficulty === d), rand).sort(
+      (a, b) => (seen.get(a.id) ?? 0) - (seen.get(b.id) ?? 0),
+    )
     if (avail.length < want[d]) {
       throw new Error(`bank has ${avail.length} ${section} ${d} items; module needs ${want[d]}`)
     }
