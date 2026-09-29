@@ -19,9 +19,11 @@ function mmss(ms: number) {
 
 export function Module({
   initial,
+  onChange,
   onSubmitted,
 }: {
   initial: ModuleState
+  onChange: (state: ModuleState) => void
   onSubmitted: (state: ModuleState) => void
 }) {
   const [state, dispatch] = useReducer(moduleReducer, initial)
@@ -29,7 +31,7 @@ export function Module({
   // keeps the correct clock. The reducer only ever sees ms-since-start.
   const t0 = new Date(initial.run.startedAt).getTime()
   const now = useCallback(() => Date.now() - t0, [t0])
-  const [elapsed, setElapsed] = useState(0)
+  const [elapsed, setElapsed] = useState(() => Date.now() - t0)
   const [navOpen, setNavOpen] = useState(false)
   const [fiveMinToast, setFiveMinToast] = useState(false)
   const fiveMinFired = useRef(false)
@@ -59,9 +61,12 @@ export function Module({
     }
   }, [inFinalFive])
 
+  // Persist after every action so a closed tab loses nothing.
   useEffect(() => {
+    if (state === initial) return
     if (state.phase === 'submitted') onSubmitted(state)
-  }, [state, onSubmitted])
+    else onChange(state)
+  }, [state, initial, onChange, onSubmitted])
 
   // P = panic marker. Records and moves on; nothing on screen changes.
   useEffect(() => {
