@@ -53,7 +53,7 @@ export async function clearActive(): Promise<void> {
   await db.active.delete('current')
 }
 
-export async function saveRun(run: Run): Promise<void> {
+export async function saveRun(run: StoredRun): Promise<void> {
   await db.transaction('rw', db.runs, db.active, async () => {
     await db.runs.put(run)
     await db.active.delete('current')

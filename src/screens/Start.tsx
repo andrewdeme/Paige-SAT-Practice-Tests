@@ -1,30 +1,9 @@
-import { useState } from 'react'
 import { allottedMs, MODULE } from '../engine/format.ts'
 import type { NextModule } from '../store/db.ts'
-
-const TIPS_KEY = 'sat-rehearsal.tips-seen'
-
-function tipsSeen(): boolean {
-  try {
-    return localStorage.getItem(TIPS_KEY) === '1'
-  } catch {
-    return false
-  }
-}
 
 export function Start({ next, onStart }: { next: NextModule; onStart: () => void }) {
   const m = MODULE[next.section]
   const minutes = Math.round(allottedMs(next.section, next.conditionStage) / 60000)
-  const [tipsOpen, setTipsOpen] = useState(() => !tipsSeen())
-
-  const start = () => {
-    try {
-      localStorage.setItem(TIPS_KEY, '1')
-    } catch {
-      /* private mode; fine */
-    }
-    onStart()
-  }
 
   return (
     <main className="intro">
@@ -57,16 +36,18 @@ export function Start({ next, onStart }: { next: NextModule; onStart: () => void
       </section>
 
       <section className="how">
-        <button
-          type="button"
-          className="linklike"
-          onClick={() => setTipsOpen((o) => !o)}
-          aria-expanded={tipsOpen}
-        >
-          {tipsOpen ? '▾' : '▸'} Tips for the module
-        </button>
-        {tipsOpen && (
-          <ul>
+        <h2>Before you start</h2>
+        <ul>
+          <li>A laptop, not a phone. The same one each time.</li>
+          <li>A quiet spot and about {minutes + 5} minutes with nothing else going on.</li>
+          <li>Phone somewhere else. Scratch paper is fine.</li>
+          <li>Once you press Start, the clock is running until the module is done.</li>
+        </ul>
+      </section>
+
+      <section className="how">
+        <h2>During the module</h2>
+        <ul>
             <li>
               <strong>Mark for Review</strong> flags a question so you can come back to it. The
               question button at the bottom shows every question and lets you jump to any of them.
@@ -85,14 +66,13 @@ export function Start({ next, onStart }: { next: NextModule; onStart: () => void
               tends to land, and work on it.
             </li>
           </ul>
-        )}
       </section>
 
       <div className="today">
         <p>
           Today: {m.title} · {m.questions} questions · {minutes} minutes
         </p>
-        <button type="button" className="primary" onClick={start} autoFocus>
+        <button type="button" className="primary" onClick={onStart} autoFocus>
           Start module
         </button>
       </div>

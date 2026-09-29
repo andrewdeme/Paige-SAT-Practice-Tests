@@ -6,6 +6,7 @@ import { createModule, type ModuleState } from './engine/module.ts'
 import { BANK } from './questions/index.ts'
 import { Done } from './screens/Done.tsx'
 import { Module } from './screens/Module.tsx'
+import { Resume } from './screens/Resume.tsx'
 import { Start } from './screens/Start.tsx'
 import { clearActive, getSettings, loadActive, saveActive, saveRun, takeNextModule, type NextModule } from './store/db.ts'
 import { fromSnapshot, settleExpired, toSnapshot } from './store/session.ts'
@@ -13,6 +14,7 @@ import { fromSnapshot, settleExpired, toSnapshot } from './store/session.ts'
 type Screen =
   | { name: 'loading' }
   | { name: 'start'; next: NextModule }
+  | { name: 'resume'; state: ModuleState }
   | { name: 'module'; state: ModuleState }
   | { name: 'done'; state: ModuleState }
 
@@ -44,9 +46,10 @@ function Student() {
     setScreen({ name: 'start', next: s.next ?? DEFAULT_NEXT })
   }, [])
 
-  // On load: resume an in-progress module if there is one. The clock kept
-  // running while the tab was closed; if it ran out, the module is filed
-  // as submitted and she lands on the same end screen as always.
+  // On load: if a module is in progress, offer to continue it. The clock
+  // kept running while the tab was closed. If it ran out, the run is filed
+  // quietly (discarded if she never answered anything) and she gets the
+  // normal start page, not a congratulation for something she didn't do.
   useEffect(() => {
     let cancelled = false
     ;(async () => {
@@ -59,10 +62,11 @@ function Student() {
       }
       const settled = settleExpired(restored)
       if (settled.phase === 'submitted') {
-        await saveRun(settled.run)
-        if (!cancelled) setScreen({ name: 'done', state: settled })
+        const untouched = settled.run.events.every((e) => e.selected === null)
+        await saveRun({ ...settled.run, discarded: untouched })
+        if (!cancelled) await toStart()
       } else if (!cancelled) {
-        setScreen({ name: 'module', state: settled })
+        setScreen({ name: 'resume', state: settled })
       }
     })()
     return () => {
@@ -91,6 +95,13 @@ function Student() {
       return null
     case 'start':
       return <Start next={screen.next} onStart={start} />
+    case 'resume':
+      return (
+        <Resume
+          state={screen.state}
+          onContinue={() => setScreen({ name: 'module', state: screen.state })}
+        />
+      )
     case 'module':
       return (
         <Module
