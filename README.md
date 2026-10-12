@@ -22,3 +22,8 @@ Vercel, static. Import the GitHub repo, framework preset **Vite**, no other sett
 
 Educator Question Bank imports (`source: "eqb"`) are on-device only and never
 committed (SPEC §10); the validator rejects them.
+
+## Tickets
+
+Work is tracked as GitHub Issues and lands on `dev` through PRs; merging closes
+the ticket and deletes the branch. See [docs/TICKETS.md](docs/TICKETS.md).

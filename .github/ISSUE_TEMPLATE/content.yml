@@ -1,0 +1,40 @@
+name: Question bank
+description: Add, fix, or retire question bank items
+labels: ["type: content", "area: questions"]
+body:
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - Reading & Writing
+        - Math
+        - Both
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of change?
+      options:
+        - Add new items
+        - Fix an existing item
+        - Retire an item
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: How many items, which domains and skills, which difficulty mix. For a fix or retire, give the item ids.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Rules
+      options:
+        - label: Items are original (`source` is `original`); no Educator Question Bank text is committed (SPEC §10)
+          required: true
+        - label: "`npm run validate` passes"
+          required: true

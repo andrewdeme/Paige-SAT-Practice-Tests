@@ -1,0 +1,20 @@
+name: Chore
+description: Tooling, dependencies, deploy, refactor, or docs
+labels: ["type: chore"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs doing?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why now?
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      value: |
+        - [ ]
