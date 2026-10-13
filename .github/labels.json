@@ -1,15 +1,7 @@
 [
   { "name": "type: feature", "color": "1d76db", "description": "New capability or improvement" },
   { "name": "type: bug", "color": "d73a4a", "description": "Something is broken or behaves wrongly" },
-  { "name": "type: content", "color": "0e8a16", "description": "Question bank items: add, fix, retire" },
   { "name": "type: chore", "color": "6e7781", "description": "Tooling, deps, deploy, refactor, docs" },
-
-  { "name": "area: engine", "color": "5319e7", "description": "Module assembly, timing, analysis (src/engine)" },
-  { "name": "area: ui", "color": "5319e7", "description": "Screens and components (src/screens, src/components)" },
-  { "name": "area: coach", "color": "5319e7", "description": "Coach view, report, help (src/coach)" },
-  { "name": "area: store", "color": "5319e7", "description": "Persistence and session state (src/store)" },
-  { "name": "area: questions", "color": "5319e7", "description": "Question bank and schema (src/questions)" },
-  { "name": "area: build", "color": "5319e7", "description": "Build, CI, Vercel, repo tooling" },
 
   { "name": "priority: high", "color": "b60205", "description": "Do before anything else" },
   { "name": "priority: low", "color": "c5def5", "description": "Nice to have, whenever" },

@@ -31,10 +31,22 @@ into the *default* branch. Merges into `dev` need this to behave the same way.
 
 ## Labels
 
-Defined in `.github/labels.json`. Edit that file and the `Sync labels` workflow
-applies the change (it creates and updates, and never deletes). GitHub's stock
-labels (`bug`, `enhancement`, ...) are left alone; delete them under Issues,
-Labels if you do not want two sets.
+`.github/labels.json` is the shared set from project-kit (`type:`, `priority:`,
+`blocked`) and is refreshed by `install.sh --update`; do not edit it. This
+project's own labels (`type: content`, the `area:` labels) are in
+`.github/labels.project.json`. The `Sync labels` workflow applies both (it
+creates and updates, and never deletes). GitHub's stock labels (`bug`,
+`enhancement`, ...) are left alone; delete them under Issues, Labels if you do
+not want two sets.
+
+## Where this comes from
+
+The workflows, shared labels, and generic forms come from the private
+`andrewdeme/project-kit` repo (`.github/project-kit.version` is the commit this
+repo has). To pick up changes: `git -C project-kit pull`, then
+`./project-kit/install.sh --update <this repo>`. The Question bank form, the
+`area:` labels, the bug form's screen list, and the `npm` checks in the PR
+template are this project's own and are not touched by an update.
 
 ## One-time setup
 
