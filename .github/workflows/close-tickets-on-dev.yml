@@ -1,0 +1,102 @@
+name: Close tickets on dev
+
+# GitHub only auto-closes "Closes #N" tickets when a PR merges into the
+# *default* branch. Work here lands on `dev` first, so this does it for dev:
+# when a PR merges into `dev`, close its tickets and delete its branch.
+# The branch name below must match the integration branch.
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [dev]
+
+permissions:
+  contents: write # delete the merged branch
+  issues: write # close tickets
+  pull-requests: read # read the PR's commit messages
+
+jobs:
+  close:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close linked tickets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          set -euo pipefail
+
+          commits=$(gh pr view "$PR_NUMBER" --repo "$REPO" --json commits \
+            --jq '.commits[] | .messageHeadline, .messageBody')
+          text="$PR_TITLE"$'\n'"$PR_BODY"$'\n'"$commits"
+
+          # Tickets come from closing keywords ("Closes #12", "Fixes #3") in the
+          # PR title, body, or commits, plus a number leading the branch name
+          # ("feat/12-pacing-rail"). Neither is trusted: both are only ever
+          # matched against a digits-only pattern.
+          numbers=$(
+            {
+              printf '%s\n' "$text" |
+                grep -oiE '\b(clos(e|es|ed)|fix(es|ed)?|resolv(e|es|ed))[: ]+#[0-9]+' |
+                grep -oE '[0-9]+$' || true
+              printf '%s\n' "$HEAD_REF" | sed -nE 's#^[^/]+/([0-9]+)-.*#\1#p'
+            } | sort -un
+          )
+
+          if [ -z "$numbers" ]; then
+            echo "No ticket referenced by PR #$PR_NUMBER."
+            exit 0
+          fi
+
+          for n in $numbers; do
+            if [ "$n" = "$PR_NUMBER" ]; then continue; fi
+            if ! info=$(gh api "repos/$REPO/issues/$n" \
+              --jq '[.state, (.pull_request != null)] | @tsv' 2>/dev/null); then
+              echo "#$n: not found, skipping"
+              continue
+            fi
+            read -r state is_pr <<<"$info"
+            if [ "$is_pr" = "true" ]; then
+              echo "#$n: is a pull request, skipping"
+              continue
+            fi
+            if [ "$state" = "closed" ]; then
+              echo "#$n: already closed"
+              continue
+            fi
+            gh issue close "$n" --repo "$REPO" --reason completed \
+              --comment "Merged to \`dev\` in $PR_URL. Closing."
+            echo "#$n: closed"
+          done
+
+      - name: Delete merged branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+
+          if [ "$HEAD_REPO" != "$REPO" ]; then
+            echo "Branch lives in a fork; leaving it."
+            exit 0
+          fi
+          case "$HEAD_REF" in
+            dev | main | master | "$DEFAULT_BRANCH")
+              echo "Refusing to delete long-lived branch '$HEAD_REF'."
+              exit 0
+              ;;
+          esac
+          if gh api --method DELETE "repos/$REPO/git/refs/heads/$HEAD_REF"; then
+            echo "Deleted $HEAD_REF"
+          else
+            echo "Could not delete $HEAD_REF (already gone or protected)."
+          fi

@@ -1,0 +1,10 @@
+[
+  { "name": "type: content", "color": "0e8a16", "description": "Question bank items: add, fix, retire" },
+
+  { "name": "area: engine", "color": "5319e7", "description": "Module assembly, timing, analysis (src/engine)" },
+  { "name": "area: ui", "color": "5319e7", "description": "Screens and components (src/screens, src/components)" },
+  { "name": "area: coach", "color": "5319e7", "description": "Coach view, report, help (src/coach)" },
+  { "name": "area: store", "color": "5319e7", "description": "Persistence and session state (src/store)" },
+  { "name": "area: questions", "color": "5319e7", "description": "Question bank and schema (src/questions)" },
+  { "name": "area: build", "color": "5319e7", "description": "Build, CI, Vercel, repo tooling" }
+]

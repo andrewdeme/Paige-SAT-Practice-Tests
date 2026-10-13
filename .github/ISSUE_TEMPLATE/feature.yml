@@ -1,0 +1,31 @@
+name: Feature / improvement
+description: Something the trainer should do, or do better
+labels: ["type: feature"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What should change?
+      description: One or two sentences. Describe the outcome, not the implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What does this fix for the student or the coach? Link the SPEC section if there is one.
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: A checklist anyone could verify.
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Screenshots, constraints, ideas, things to avoid.
